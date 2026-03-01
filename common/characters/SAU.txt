@@ -1,0 +1,880 @@
+characters = {
+	SAU_Behdi_Yalli={
+		name="Behdi Yalli"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAU_Ramid_Setashgash={
+		name="Ramid Setashgash"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Ramid_Setashgash
+				traits = {	headstrong 	}
+		}
+
+	}
+	SAU_Arma_Rooz={
+		name="Arma Rooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Arma_Rooz
+				traits = {	headstrong 	}
+		}
+
+	}
+	SAU_Parham_Rooz={
+		name="Parham Rooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Parham_Rooz
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	SAU_Ahma_Yalli={
+		name="Ahma Yalli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Ahma_Yalli
+				traits = {	headstrong 	}
+		}
+
+	}
+	SAU_Amin_Shil={
+		name="Amin Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Amin_Shil
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SAU_Mostafa_Mohar={
+		name="Mostafa Mohar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Mostafa_Mohar
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SAU_Ahma_Dang={
+		name="Ahma Dang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Ahma_Dang
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SAU_Peymal_Rooz={
+		name="Peymal Rooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Peymal_Rooz
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SAU_Shahim_Dang={
+		name="Shahim Dang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Shahim_Dang
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SAU_Behdi_Dang={
+		name="Behdi Dang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Behdi_Dang
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SAU_Sham_Darhahir={
+		name="Sham Darhahir"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Sham_Darhahir
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SAU_Mehdi_Rooz={
+		name="Mehdi Rooz"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Mehdi_Rooz
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SAU_Shahrahram_Dang={
+		name="Shahrahram Dang"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Shahrahram_Dang
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SAU_Parhamin_Setashgash={
+		name="Parhamin Setashgash"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Parhamin_Setashgash
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SAU_Amin_Pirdar={
+		name="Amin Pirdar"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Amin_Pirdar
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	SAU_Parhahrahim_Dang={
+		name="Parhahrahim Dang"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Parhahrahim_Dang
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SAU_Kavehdi_Setashgash={
+		name="Kavehdi Setashgash"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Kavehdi_Setashgash
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	SAU_Milad_Mohar={
+		name="Milad Mohar"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Milad_Mohar
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SAU_Shad_Ghad={
+		name="Shad Ghad"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Shad_Ghad
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SAU_Kamid_Pirdar={
+		name="Kamid Pirdar"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Kamid_Pirdar
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SAU_Farhahimad_Shil={
+		name="Farhahimad Shil"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAU_Amid_Shil={
+		name="Amid Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Amid_Shil
+				traits = {	polemarch 	}
+		}
+
+	}
+	SAU_Ramid_Shil={
+		name="Ramid Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Ramid_Shil
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SAU_Parham_Yalli={
+		name="Parham Yalli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Parham_Yalli
+				traits = {	generallissimo 	}
+		}
+
+	}
+	SAU_Sham_Rahamaneshgh={
+		name="Sham Rahamaneshgh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Sham_Rahamaneshgh
+				traits = {	autokrator 	}
+		}
+
+	}
+	SAU_Omid_Dang={
+		name="Omid Dang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Omid_Dang
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SAU_Shahrahram_Ghad={
+		name="Shahrahram Ghad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Shahrahram_Ghad
+				traits = {	infirm 	}
+		}
+
+	}
+	SAU_Navid_Yalli={
+		name="Navid Yalli"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Navid_Yalli
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SAU_Parhamir_Rooz={
+		name="Parhamir Rooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Parhamir_Rooz
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SAU_Parham_Rahamaneshgh={
+		name="Parham Rahamaneshgh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Parham_Rahamaneshgh
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SAU_Mehzad_Rahamaneshgh={
+		name="Mehzad Rahamaneshgh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Mehzad_Rahamaneshgh
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SAU_Navid_Setashgash={
+		name="Navid Setashgash"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Navid_Setashgash
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	SAU_Armal_Yalli={
+		name="Armal Yalli"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Armal_Yalli
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SAU_Reza_Rooz={
+		name="Reza Rooz"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Reza_Rooz
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	SAU_Rama_Dang={
+		name="Rama Dang"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Rama_Dang
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SAU_Shad_Dang={
+		name="Shad Dang"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Shad_Dang
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	SAU_Hostafa_Pirdar={
+		name="Hostafa Pirdar"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Hostafa_Pirdar
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SAU_Peyma_Dang={
+		name="Peyma Dang"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Peyma_Dang
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	SAU_Peyman_Shil={
+		name="Peyman Shil"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Peyman_Shil
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	SAU_Hassein_Pirdar={
+		name="Hassein Pirdar"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Hassein_Pirdar
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	SAU_Hassein_Ghad={
+		name="Hassein Ghad"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Hassein_Ghad
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SAU_Mehdi_Ghad={
+		name="Mehdi Ghad"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAU_Shamal_Ghad={
+		name="Shamal Ghad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Shamal_Ghad
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SAU_Amir_Yalli={
+		name="Amir Yalli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Amir_Yalli
+				traits = {	polemarch 	}
+		}
+
+	}
+	SAU_Ahmal_Ghad={
+		name="Ahmal Ghad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Ahmal_Ghad
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SAU_Amir_Ghad={
+		name="Amir Ghad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Amir_Ghad
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SAU_Majid_Shil={
+		name="Majid Shil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Majid_Shil
+				traits = {	infirm 	}
+		}
+
+	}
+	SAU_Parhad_Yalli={
+		name="Parhad Yalli"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Parhad_Yalli
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SAU_Ahma_Rooz={
+		name="Ahma Rooz"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Ahma_Rooz
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	SAU_Rezad_Setashgash={
+		name="Rezad Setashgash"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Rezad_Setashgash
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SAU_Arma_Shil={
+		name="Arma Shil"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Arma_Shil
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SAU_Shahrahram_Darhahir={
+		name="Shahrahram Darhahir"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Shahrahram_Darhahir
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SAU_Omid_Setashgash={
+		name="Omid Setashgash"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Omid_Setashgash
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SAU_Mossan_Mohar={
+		name="Mossan Mohar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Mossan_Mohar
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SAU_Peymad_Yalli={
+		name="Peymad Yalli"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Peymad_Yalli
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SAU_Shad_Rahamaneshgh={
+		name="Shad Rahamaneshgh"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Shad_Rahamaneshgh
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SAU_Kaveh_Yalli={
+		name="Kaveh Yalli"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Kaveh_Yalli
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SAU_Omin_Rooz={
+		name="Omin Rooz"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Omin_Rooz
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	SAU_Behzad_Yalli={
+		name="Behzad Yalli"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Behzad_Yalli
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	SAU_Saeed_Setashgash={
+		name="Saeed Setashgash"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Saeed_Setashgash
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	SAU_Ahman_Shil={
+		name="Ahman Shil"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Ahman_Shil
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SAU_Naveh_Mohar={
+		name="Naveh Mohar"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Naveh_Mohar
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	SAU_Ahman_Rooz={
+		name="Ahman Rooz"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SAU_Navid_Rooz={
+		name="Navid Rooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Navid_Rooz
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SAU_Kamin_Pirdar={
+		name="Kamin Pirdar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Kamin_Pirdar
+				traits = {	rearmer 	}
+		}
+
+	}
+	SAU_Saeed_Rooz={
+		name="Saeed Rooz"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Saeed_Rooz
+				traits = {	the_banker 	}
+		}
+
+	}
+	SAU_Raman_Darhahir={
+		name="Raman Darhahir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Raman_Darhahir
+				traits = {	rearmer 	}
+		}
+
+	}
+	SAU_Raman_Rahamaneshgh={
+		name="Raman Rahamaneshgh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Raman_Rahamaneshgh
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SAU_Mossein_Darhahir={
+		name="Mossein Darhahir"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SAU_Mossein_Darhahir
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SAU_Parham_Darhahir={
+		name="Parham Darhahir"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Parham_Darhahir
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SAU_Farhahimad_Rahamaneshgh={
+		name="Farhahimad Rahamaneshgh"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Farhahimad_Rahamaneshgh
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SAU_Armal_Darhahir={
+		name="Armal Darhahir"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Armal_Darhahir
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SAU_Mostafa_Dang={
+		name="Mostafa Dang"
+
+		advisor={
+			slot = army_chief
+			idea_token = SAU_Mostafa_Dang
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SAU_Peyma_Rahamaneshgh={
+		name="Peyma Rahamaneshgh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Peyma_Rahamaneshgh
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	SAU_Peyman_Setashgash={
+		name="Peyman Setashgash"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SAU_Peyman_Setashgash
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	SAU_Parhahim_Pirdar={
+		name="Parhahim Pirdar"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Parhahim_Pirdar
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SAU_Navid_Ghad={
+		name="Navid Ghad"
+
+		advisor={
+			slot = air_chief
+			idea_token = SAU_Navid_Ghad
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SAU_Navehza_Setashgash={
+		name="Navehza Setashgash"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Navehza_Setashgash
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	SAU_Mehdi_Setashgash={
+		name="Mehdi Setashgash"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Mehdi_Setashgash
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	SAU_Mostafa_Shil={
+		name="Mostafa Shil"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Mostafa_Shil
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SAU_Ahmal_Yalli={
+		name="Ahmal Yalli"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Ahmal_Yalli
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SAU_Arma_Rahamaneshgh={
+		name="Arma Rahamaneshgh"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Arma_Rahamaneshgh
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	SAU_Peyman_Mohar={
+		name="Peyman Mohar"
+
+		advisor={
+			slot = high_command
+			idea_token = SAU_Peyman_Mohar
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	SAU_Kamin_Rooz={
+		name="Kamin Rooz"
+
+		advisor={
+			slot = theorist
+			idea_token = SAU_Kamin_Rooz
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SAU_Peymal_Ghad={
+		name="Peymal Ghad"
+
+		advisor={
+			slot = theorist
+			idea_token = SAU_Peymal_Ghad
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SAU_Babak_Setashgash={
+		name="Babak Setashgash"
+
+		advisor={
+			slot = theorist
+			idea_token = SAU_Babak_Setashgash
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

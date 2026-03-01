@@ -1,0 +1,880 @@
+characters = {
+	JOR_Amaizka_Eusmoa={
+		name="Amaizka Eusmoa"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JOR_Ibaiur_Azaguna={
+		name="Ibaiur Azaguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Ibaiur_Azaguna
+				traits = {	headstrong 	}
+		}
+
+	}
+	JOR_Benaiur_Eskargi={
+		name="Benaiur Eskargi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Benaiur_Eskargi
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JOR_Xanti_Laguzki={
+		name="Xanti Laguzki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Xanti_Laguzki
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	JOR_Xanti_Eskargi={
+		name="Xanti Eskargi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Xanti_Eskargi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	JOR_Benai_Zarterreko={
+		name="Benai Zarterreko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Benai_Zarterreko
+				traits = {	humble 	}
+		}
+
+	}
+	JOR_Miker_Azaguna={
+		name="Miker Azaguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Miker_Azaguna
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	JOR_Ikel_Eskargi={
+		name="Ikel Eskargi"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Ikel_Eskargi
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	JOR_Benaitz_Laguzki={
+		name="Benaitz Laguzki"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Benaitz_Laguzki
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	JOR_Harka_Mugaziona={
+		name="Harka Mugaziona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Harka_Mugaziona
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	JOR_Miker_Zapendadima={
+		name="Miker Zapendadima"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Miker_Zapendadima
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	JOR_Mikel_Gizea={
+		name="Mikel Gizea"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Mikel_Gizea
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	JOR_Amai_Gizea={
+		name="Amai Gizea"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Amai_Gizea
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	JOR_Unaitor_Gizea={
+		name="Unaitor Gizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Unaitor_Gizea
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	JOR_Gorkaiur_Zarterreko={
+		name="Gorkaiur Zarterreko"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Gorkaiur_Zarterreko
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	JOR_Iban_Berrai={
+		name="Iban Berrai"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Iban_Berrai
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	JOR_Eneko_Eusmoa={
+		name="Eneko Eusmoa"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Eneko_Eusmoa
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	JOR_Benai_Eusmoa={
+		name="Benai Eusmoa"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Benai_Eusmoa
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	JOR_Eneko_Zapendadima={
+		name="Eneko Zapendadima"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Eneko_Zapendadima
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	JOR_Iban_Zarterreko={
+		name="Iban Zarterreko"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Iban_Zarterreko
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	JOR_Gaiur_Gizea={
+		name="Gaiur Gizea"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Gaiur_Gizea
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	JOR_Benat_Gizea={
+		name="Benat Gizea"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JOR_Harkai_Azaguna={
+		name="Harkai Azaguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Harkai_Azaguna
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	JOR_Aitz_Eskargi={
+		name="Aitz Eskargi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Aitz_Eskargi
+				traits = {	infirm 	}
+		}
+
+	}
+	JOR_Harkaizkaito_Laguzki={
+		name="Harkaizkaito Laguzki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Harkaizkaito_Laguzki
+				traits = {	autokrator 	}
+		}
+
+	}
+	JOR_Benaitz_Gizea={
+		name="Benaitz Gizea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Benaitz_Gizea
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	JOR_Amaitz_Berrai={
+		name="Amaitz Berrai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Amaitz_Berrai
+				traits = {	warmonger 	}
+		}
+
+	}
+	JOR_Iker_Laguzki={
+		name="Iker Laguzki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Iker_Laguzki
+				traits = {	basileus 	}
+		}
+
+	}
+	JOR_Mikel_Zubi={
+		name="Mikel Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Mikel_Zubi
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	JOR_Ekaitor_Mugaziona={
+		name="Ekaitor Mugaziona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Ekaitor_Mugaziona
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JOR_Eneko_Laguzki={
+		name="Eneko Laguzki"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Eneko_Laguzki
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JOR_Eder_Mugaziona={
+		name="Eder Mugaziona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Eder_Mugaziona
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	JOR_Gaiur_Laguzki={
+		name="Gaiur Laguzki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Gaiur_Laguzki
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	JOR_Benaiur_Eusmoa={
+		name="Benaiur Eusmoa"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Benaiur_Eusmoa
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	JOR_Iker_Mugaziona={
+		name="Iker Mugaziona"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Iker_Mugaziona
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	JOR_Harkai_Eusmoa={
+		name="Harkai Eusmoa"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Harkai_Eusmoa
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	JOR_Aitz_Azaguna={
+		name="Aitz Azaguna"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Aitz_Azaguna
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	JOR_Harkai_Gizea={
+		name="Harkai Gizea"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Harkai_Gizea
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	JOR_Koldo_Eusmoa={
+		name="Koldo Eusmoa"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Koldo_Eusmoa
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	JOR_Unaitor_Zubi={
+		name="Unaitor Zubi"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Unaitor_Zubi
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	JOR_Xabier_Eusmoa={
+		name="Xabier Eusmoa"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Xabier_Eusmoa
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	JOR_Asier_Zapendadima={
+		name="Asier Zapendadima"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Asier_Zapendadima
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	JOR_Benaizkaitor_Gizea={
+		name="Benaizkaitor Gizea"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JOR_Benat_Eskargi={
+		name="Benat Eskargi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Benat_Eskargi
+				traits = {	infirm 	}
+		}
+
+	}
+	JOR_Unaitz_Mugaziona={
+		name="Unaitz Mugaziona"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Unaitz_Mugaziona
+				traits = {	infirm 	}
+		}
+
+	}
+	JOR_Iker_Azaguna={
+		name="Iker Azaguna"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Iker_Azaguna
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	JOR_Mikel_Eskargi={
+		name="Mikel Eskargi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Mikel_Eskargi
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JOR_Unaitz_Eusmoa={
+		name="Unaitz Eusmoa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Unaitz_Eusmoa
+				traits = {	polemarch 	}
+		}
+
+	}
+	JOR_Benaiur_Laguzki={
+		name="Benaiur Laguzki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Benaiur_Laguzki
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	JOR_Iban_Eskargi={
+		name="Iban Eskargi"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Iban_Eskargi
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	JOR_Harkaizkaito_Eskargi={
+		name="Harkaizkaito Eskargi"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Harkaizkaito_Eskargi
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	JOR_Eder_Zubi={
+		name="Eder Zubi"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Eder_Zubi
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	JOR_Gorka_Mugaziona={
+		name="Gorka Mugaziona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Gorka_Mugaziona
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	JOR_Harkai_Mugaziona={
+		name="Harkai Mugaziona"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Harkai_Mugaziona
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	JOR_Harkai_Zarterreko={
+		name="Harkai Zarterreko"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Harkai_Zarterreko
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	JOR_Gorkaiur_Berrai={
+		name="Gorkaiur Berrai"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Gorkaiur_Berrai
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	JOR_Harkaizkaito_Gizea={
+		name="Harkaizkaito Gizea"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Harkaizkaito_Gizea
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	JOR_Benai_Gizea={
+		name="Benai Gizea"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Benai_Gizea
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	JOR_Xabier_Mugaziona={
+		name="Xabier Mugaziona"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Xabier_Mugaziona
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	JOR_Xabier_Azaguna={
+		name="Xabier Azaguna"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Xabier_Azaguna
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	JOR_Iker_Zarterreko={
+		name="Iker Zarterreko"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Iker_Zarterreko
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	JOR_Benaitz_Zarterreko={
+		name="Benaitz Zarterreko"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Benaitz_Zarterreko
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	JOR_Ander_Eskargi={
+		name="Ander Eskargi"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Ander_Eskargi
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	JOR_Eneko_Zubi={
+		name="Eneko Zubi"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	JOR_Gorkaiur_Eusmoa={
+		name="Gorkaiur Eusmoa"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Gorkaiur_Eusmoa
+				traits = {	infirm 	}
+		}
+
+	}
+	JOR_Gorka_Berrai={
+		name="Gorka Berrai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Gorka_Berrai
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	JOR_Ibaiur_Berrai={
+		name="Ibaiur Berrai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Ibaiur_Berrai
+				traits = {	first_lady 	}
+		}
+
+	}
+	JOR_Benaizkaitor_Laguzki={
+		name="Benaizkaitor Laguzki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Benaizkaitor_Laguzki
+				traits = {	first_lady 	}
+		}
+
+	}
+	JOR_Xanti_Gizea={
+		name="Xanti Gizea"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Xanti_Gizea
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	JOR_Asier_Zubi={
+		name="Asier Zubi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = JOR_Asier_Zubi
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	JOR_Unaitz_Zarterreko={
+		name="Unaitz Zarterreko"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Unaitz_Zarterreko
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	JOR_Unaitor_Mugaziona={
+		name="Unaitor Mugaziona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Unaitor_Mugaziona
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	JOR_Koldo_Zapendadima={
+		name="Koldo Zapendadima"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Koldo_Zapendadima
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	JOR_Aitz_Mugaziona={
+		name="Aitz Mugaziona"
+
+		advisor={
+			slot = army_chief
+			idea_token = JOR_Aitz_Mugaziona
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	JOR_Iban_Mugaziona={
+		name="Iban Mugaziona"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Iban_Mugaziona
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	JOR_Gorkaiur_Gizea={
+		name="Gorkaiur Gizea"
+
+		advisor={
+			slot = navy_chief
+			idea_token = JOR_Gorkaiur_Gizea
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	JOR_Amaitz_Zarterreko={
+		name="Amaitz Zarterreko"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Amaitz_Zarterreko
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	JOR_Ikel_Zubi={
+		name="Ikel Zubi"
+
+		advisor={
+			slot = air_chief
+			idea_token = JOR_Ikel_Zubi
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	JOR_Ekaitor_Zarterreko={
+		name="Ekaitor Zarterreko"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Ekaitor_Zarterreko
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	JOR_Iker_Zubi={
+		name="Iker Zubi"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Iker_Zubi
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	JOR_Koldo_Berrai={
+		name="Koldo Berrai"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Koldo_Berrai
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	JOR_Eder_Eusmoa={
+		name="Eder Eusmoa"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Eder_Eusmoa
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	JOR_Harkaizkaito_Zapendadima={
+		name="Harkaizkaito Zapendadima"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Harkaizkaito_Zapendadima
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	JOR_Miker_Berrai={
+		name="Miker Berrai"
+
+		advisor={
+			slot = high_command
+			idea_token = JOR_Miker_Berrai
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	JOR_Eder_Eskargi={
+		name="Eder Eskargi"
+
+		advisor={
+			slot = theorist
+			idea_token = JOR_Eder_Eskargi
+				traits = {	military_theorist 	}
+		}
+
+	}
+	JOR_Ibanti_Mugaziona={
+		name="Ibanti Mugaziona"
+
+		advisor={
+			slot = theorist
+			idea_token = JOR_Ibanti_Mugaziona
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	JOR_Benaizkaitor_Eskargi={
+		name="Benaizkaitor Eskargi"
+
+		advisor={
+			slot = theorist
+			idea_token = JOR_Benaizkaitor_Eskargi
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
