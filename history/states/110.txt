@@ -1,0 +1,39 @@
+
+state={
+	id=110
+	name="STATE_110"
+	manpower = 1331088
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8444 24}
+		victory_points = { 8889 16}
+		
+		owner = JOR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = JOR
+	}
+
+	provinces={
+		7906 7939 7960 8039 8088 8096 8097 8098 8120 8121 8122 8161 8162 8170 8192 8197 8224 8225 8250 8274 8301 8306 8330 8339 8350 8372 8408 8424 8434 8444 8445 8457 8499 8511 8534 8558 8576 8594 8601 8609 8616 8653 8735 8736 8744 8776 8822 8877 8889 8915 8953 8967 8994 9010 9055 9117 
+	}
+	local_supplies=0.0 
+}

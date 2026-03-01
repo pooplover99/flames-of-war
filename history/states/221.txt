@@ -1,0 +1,40 @@
+
+state={
+	id=221
+	name="STATE_221"
+	manpower = 323149
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13741 3}
+		victory_points = { 13941 3}
+		victory_points = { 14120 3}
+		
+		owner = SAR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		13741 13790 13836 13849 13941 13976 13993 14120 14147 14221 14284 14324 14445 
+	}
+	local_supplies=0.0 
+}

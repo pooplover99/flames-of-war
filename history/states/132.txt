@@ -1,0 +1,40 @@
+
+state={
+	id=132
+	name="STATE_132"
+	manpower = 70395
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=0
+		oil=0
+		rubber=28
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IRN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			13356 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IRN
+	}
+
+	provinces={
+		10954 11037 11335 11563 11778 11989 12186 12275 12457 12513 12597 12726 12790 12894 12904 13050 13061 13243 13252 13356 13497 13530 13544 13684 13749 13846 13913 14024 14063 14168 14225 14353 14368 14397 14498 14624 14682 14746 14910 15230 
+	}
+	local_supplies=0.0 
+}

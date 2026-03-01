@@ -1,0 +1,42 @@
+
+state={
+	id=175
+	name="STATE_175"
+	manpower = 329545
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11662 1}
+		victory_points = { 11687 1}
+		victory_points = { 11709 2}
+		victory_points = { 11871 2}
+		victory_points = { 11923 2}
+		
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = IRQ
+	}
+
+	provinces={
+		11588 11599 11638 11648 11662 11687 11709 11748 11811 11871 11881 11923 11993 
+	}
+	local_supplies=0.0 
+}

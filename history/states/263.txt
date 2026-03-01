@@ -1,0 +1,40 @@
+
+state={
+	id=263
+	name="STATE_263"
+	manpower = 194876
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16812 1}
+		victory_points = { 16966 1}
+		victory_points = { 17009 1}
+		
+		owner = FSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		16812 16833 16966 16973 17009 17178 17279 
+	}
+	local_supplies=0.0 
+}

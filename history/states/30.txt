@@ -1,0 +1,42 @@
+
+state={
+	id=30
+	name="STATE_30"
+	manpower = 1382720
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=21
+	}
+
+	history={
+		victory_points = { 12294 3}
+		victory_points = { 12411 14}
+		victory_points = { 12751 14}
+		victory_points = { 12833 10}
+		victory_points = { 13244 1}
+		
+		owner = FSA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		12294 12295 12385 12411 12431 12462 12484 12523 12524 12543 12560 12602 12633 12641 12648 12655 12683 12695 12708 12709 12729 12745 12751 12776 12794 12807 12815 12816 12833 12846 12861 12873 12886 12887 12914 12934 12947 12972 12974 12984 12993 12999 13000 13026 13033 13076 13120 13126 13174 13184 13206 13244 13293 13333 13343 13430 13455 
+	}
+	local_supplies=0.0 
+}

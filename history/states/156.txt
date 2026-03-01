@@ -1,0 +1,39 @@
+
+state={
+	id=156
+	name="STATE_156"
+	manpower = 137611
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=5
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10659 1}
+		victory_points = { 10895 1}
+		
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IRQ
+	}
+
+	provinces={
+		10659 10682 10694 10824 10895 
+	}
+	local_supplies=0.0 
+}

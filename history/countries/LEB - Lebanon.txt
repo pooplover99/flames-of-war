@@ -1,0 +1,562 @@
+capital = 172
+
+oob = "LEB_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "LEB_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "LEB_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	motorised_infantry= 1
+	interwar_antiair= 1
+	interwar_antitank= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	construction1= 1
+	synth_oil_experiments= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "LEB_1936_air_bba"
+		set_technology = {
+			bba_early_transport_plane = 1
+			early_bombs = 1
+			photo_reconnaisance = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			armor_piercing_bombs = 1
+			
+		}
+
+	else = {
+		set_air_oob = "LEB_1936_air_legacy"
+		set_technology = {
+			early_transport_plane = 1
+			CAS1 = 1
+			scout_plane1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_destroyer = 1
+	basic_heavy_cruiser = 1
+	basic_light_cruiser = 1
+	basic_submarine = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "LEB_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Lagun Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bihantza Class"
+			type = destroyer_2
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Lagun Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gogoa Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gogoa Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Lagun Class"
+			type = heavy_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gogoa Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Laguna Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Laguna Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Lagun Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Zaharan Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_armor_scheme = 1
+	basic_light_battery = 1
+	basic_light_shell = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_light = 1
+	basic_ship_hull_submarine = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	improved_sonar = 1
+	mtg_transport = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "LEB_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Lagun Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Bihantza Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Lagun Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gogoa Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gogoa Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Lagun Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_2
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = ship_medium_battery_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Gogoa Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Laguna Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Laguna Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = ship_deck_space
+			}
+		}
+		create_equipment_variant = {
+			name = "Lagun Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Zaharan Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = ship_torpedo_sub_2
+			}
+		}
+
+	}
+
+
+recruit_character = LEB_Aitorka_Zaharan
+recruit_character = LEB_Mikel_Hodei
+recruit_character = LEB_Harkaitz_Izapora
+recruit_character = LEB_Benaiur_Izapora
+recruit_character = LEB_Xanti_Uraka
+recruit_character = LEB_Ibaitz_Gogoa
+recruit_character = LEB_Ibai_Gogoa
+recruit_character = LEB_Gaiur_Lagun
+recruit_character = LEB_Xabier_Izendu
+recruit_character = LEB_Eder_Beri
+recruit_character = LEB_Iban_Beri
+recruit_character = LEB_Amaizka_Izendu
+recruit_character = LEB_Amaitz_Beri
+recruit_character = LEB_Iban_Gogoa
+recruit_character = LEB_Gaitz_Izendu
+recruit_character = LEB_Benaiur_Hodei
+recruit_character = LEB_Unai_Zaharan
+recruit_character = LEB_Ikel_Hodei
+recruit_character = LEB_Iban_Bihantza
+recruit_character = LEB_Xabier_Izapora
+recruit_character = LEB_Eder_Hodei
+recruit_character = LEB_Amaitorka_Hodei
+recruit_character = LEB_Benat_Gogoa
+recruit_character = LEB_Unaitz_Hodei
+recruit_character = LEB_Aitorka_Beri
+recruit_character = LEB_Xabier_Hodei
+recruit_character = LEB_Ibaiur_Izapora
+recruit_character = LEB_Ibaiur_Bihantza
+recruit_character = LEB_Amai_Beri
+recruit_character = LEB_Ander_Izendu
+recruit_character = LEB_Xanti_Gogoa
+recruit_character = LEB_Benaitz_Uraka
+recruit_character = LEB_Amaitor_Hodei
+recruit_character = LEB_Harkaiur_Hodei
+recruit_character = LEB_Amaitor_Bihantza
+recruit_character = LEB_Eder_Gogoa
+recruit_character = LEB_Amaitz_Hodei
+recruit_character = LEB_Ibanti_Lagun
+recruit_character = LEB_Ibaitz_Uraka
+recruit_character = LEB_Asier_Beri
+recruit_character = LEB_Amaitor_Laguna
+recruit_character = LEB_Ibaizka_Hodei
+recruit_character = LEB_Iker_Gogoa
+recruit_character = LEB_Amaitor_Gogoa
+recruit_character = LEB_Ibai_Laguna
+recruit_character = LEB_Harkaiur_Laguna
+recruit_character = LEB_Harkaiur_Lagun
+recruit_character = LEB_Aitz_Gogoa
+recruit_character = LEB_Benaitz_Zaharan
+recruit_character = LEB_Iker_Lagun
+recruit_character = LEB_Eder_Uraka
+recruit_character = LEB_Ibanti_Laguna
+recruit_character = LEB_Unai_Lagun
+recruit_character = LEB_Gaitz_Uraka
+recruit_character = LEB_Amaiur_Bihantza
+recruit_character = LEB_Harka_Hodei
+recruit_character = LEB_Benaiur_Uraka
+recruit_character = LEB_Aitorka_Hodei
+recruit_character = LEB_Benat_Bihantza
+recruit_character = LEB_Harkaiur_Beri
+recruit_character = LEB_Gorkai_Bihantza
+recruit_character = LEB_Ibai_Lagun
+recruit_character = LEB_Ander_Bihantza
+recruit_character = LEB_Amaitor_Izapora
+recruit_character = LEB_Harkaitor_Beri
+recruit_character = LEB_Amai_Hodei
+recruit_character = LEB_Aitorka_Laguna
+recruit_character = LEB_Harkai_Beri
+recruit_character = LEB_Aitz_Izendu
+recruit_character = LEB_Benaiur_Bihantza
+recruit_character = LEB_Harka_Zaharan
+recruit_character = LEB_Gaiur_Uraka
+recruit_character = LEB_Aitz_Zaharan
+recruit_character = LEB_Aitorka_Lagun
+recruit_character = LEB_Xabier_Bihantza
+recruit_character = LEB_Unat_Izendu
+recruit_character = LEB_Harkai_Laguna
+recruit_character = LEB_Ander_Beri
+recruit_character = LEB_Unaitz_Beri
+recruit_character = LEB_Amaitorka_Beri
+recruit_character = LEB_Ibai_Izapora
+recruit_character = LEB_Amai_Izendu
+recruit_character = LEB_Amaiur_Beri
+recruit_character = LEB_Amaitz_Laguna
+recruit_character = LEB_Aitor_Beri
+recruit_character = LEB_Ibanti_Hodei
+recruit_character = LEB_Aitorka_Izapora
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 0
+set_stability = 90
+set_war_support = 45
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.10.11"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 33
+	fascism = 29
+	communism = 12
+	neutrality = 26
+}
+
+
+
+
+

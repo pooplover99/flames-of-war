@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Saudi Arabia Fleet"			
+		naval_base = 158
+		task_force = {
+			name = "Saudi Arabia Fleet"
+			location = 158
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

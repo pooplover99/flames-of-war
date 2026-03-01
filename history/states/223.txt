@@ -1,0 +1,42 @@
+
+state={
+	id=223
+	name="STATE_223"
+	manpower = 777957
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15630 6}
+		victory_points = { 15661 4}
+		victory_points = { 15805 4}
+		victory_points = { 16195 6}
+		victory_points = { 16216 1}
+		
+		owner = FSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		15557 15583 15630 15650 15661 15682 15699 15735 15736 15805 15836 15851 15856 15865 15895 15896 15946 15947 15981 16001 16009 16026 16036 16085 16125 16195 16216 16240 16295 16324 16363 
+	}
+	local_supplies=0.0 
+}

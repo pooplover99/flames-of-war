@@ -1,0 +1,40 @@
+
+state={
+	id=125
+	name="STATE_125"
+	manpower = 439040
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=13
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9275 4}
+		victory_points = { 9377 4}
+		victory_points = { 9919 3}
+		
+		owner = ISR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ISR
+	}
+
+	provinces={
+		9124 9204 9275 9304 9377 9450 9482 9537 9608 9667 9728 9790 9796 9919 10003 10083 10172 10221 
+	}
+	local_supplies=0.0 
+}

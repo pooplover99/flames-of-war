@@ -1,0 +1,39 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower = 373675
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=40
+		rubber=0
+		steel=54
+		tungsten=79
+		coal=22
+	}
+
+	history={
+		victory_points = { 3031 2}
+		victory_points = { 3181 2}
+		
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		2418 2489 2542 2553 2573 2592 2593 2647 2655 2669 2700 2701 2714 2715 2761 2766 2782 2804 2815 2821 2822 2839 2840 2856 2879 2880 2881 2893 2922 2932 2977 2991 3026 3031 3088 3089 3096 3116 3137 3158 3169 3181 3190 3198 3218 3256 3285 3294 3318 3342 3352 3361 3380 3394 3404 3421 3439 3440 3495 3537 3548 3562 3581 3596 3619 3624 3668 3695 3762 3775 3782 3783 3798 3809 3824 3835 3907 3914 3953 3964 4008 4033 4046 4067 4163 4171 4181 4182 4209 4270 4443 4444 4469 4478 4652 4690 4709 4723 4742 4936 4947 5002 
+	}
+	local_supplies=0.0 
+}

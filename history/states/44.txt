@@ -1,0 +1,39 @@
+
+state={
+	id=44
+	name="STATE_44"
+	manpower = 1590397
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=11
+		tungsten=9
+		coal=24
+	}
+
+	history={
+		victory_points = { 3713 20}
+		victory_points = { 4160 29}
+		
+		owner = ISR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 3
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = ISR
+	}
+
+	provinces={
+		2975 2999 3000 3045 3055 3080 3132 3151 3187 3237 3282 3316 3325 3379 3418 3445 3463 3513 3536 3590 3600 3610 3649 3713 3751 3761 3797 3832 3880 3888 3928 3951 3952 3984 3997 4059 4060 4095 4118 4159 4160 4179 4180 4206 4234 4253 4295 4300 4337 4354 4390 4415 4449 4468 4474 4475 4488 4489 4549 4586 4603 4614 4626 4646 4689 
+	}
+	local_supplies=0.0 
+}

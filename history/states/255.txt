@@ -1,0 +1,40 @@
+
+state={
+	id=255
+	name="STATE_255"
+	manpower = 400117
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 15029 1}
+		victory_points = { 15295 4}
+		victory_points = { 15491 5}
+		
+		owner = FSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		15029 15083 15133 15185 15295 15332 15444 15491 15603 15613 15648 15727 15794 15848 15901 16020 
+	}
+	local_supplies=0.0 
+}

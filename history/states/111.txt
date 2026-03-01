@@ -1,0 +1,41 @@
+
+state={
+	id=111
+	name="STATE_111"
+	manpower = 1768435
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=0
+		rubber=2
+		steel=4
+		tungsten=38
+		coal=0
+	}
+
+	history={
+		victory_points = { 8127 17}
+		victory_points = { 8222 21}
+		victory_points = { 8657 3}
+		victory_points = { 9098 14}
+		
+		owner = IRQ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 6
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = IRQ
+	}
+
+	provinces={
+		8007 8008 8030 8063 8084 8102 8114 8127 8128 8186 8204 8211 8221 8222 8244 8263 8267 8288 8289 8305 8362 8363 8384 8402 8411 8430 8461 8468 8469 8480 8487 8488 8501 8508 8580 8590 8591 8624 8625 8633 8647 8648 8657 8666 8667 8717 8748 8749 8762 8766 8770 8797 8802 8803 8829 8867 8874 8912 8919 8920 8921 8992 9071 9078 9091 9098 9136 9156 9169 9216 9217 9242 9268 
+	}
+	local_supplies=0.0 
+}

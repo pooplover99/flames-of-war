@@ -1,0 +1,285 @@
+capital = 161
+
+oob = "IRN_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "IRN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "IRN_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "IRN_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "IRN_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_destroyer = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "IRN_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Nomena Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Vulum Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	sonar = 1
+	
+	}
+	set_naval_oob = "IRN_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Nomena Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Vulum Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
+
+recruit_character = IRN_Coracchus_Civitum
+recruit_character = IRN_Regustus_Domus
+recruit_character = IRN_Prius_Nomena
+recruit_character = IRN_Graticus_Opublis
+recruit_character = IRN_Nerus_Opublis
+recruit_character = IRN_Valervius_Nomena
+recruit_character = IRN_Cassius_Domus
+recruit_character = IRN_Faulus_Domus
+recruit_character = IRN_Antonginus_Opublis
+recruit_character = IRN_Sextus_Civitum
+recruit_character = IRN_Gaianus_Civerba
+recruit_character = IRN_Gaius_Arta
+recruit_character = IRN_Paus_Opublis
+recruit_character = IRN_Augulus_Domus
+recruit_character = IRN_Brutus_Arta
+recruit_character = IRN_Silvanlius_Opublis
+recruit_character = IRN_Flaus_Civerba
+recruit_character = IRN_Titus_Civitum
+recruit_character = IRN_Lucimus_Civerba
+recruit_character = IRN_Gemus_Civerba
+recruit_character = IRN_Paus_Tura
+recruit_character = IRN_Quinusus_Civerba
+recruit_character = IRN_Tibervius_Civerba
+recruit_character = IRN_Cornelius_Arta
+recruit_character = IRN_Hornellus_Tura
+recruit_character = IRN_Otho_Nomena
+recruit_character = IRN_Titus_Nomena
+recruit_character = IRN_Drus_Civerba
+recruit_character = IRN_Sextus_Vulum
+recruit_character = IRN_Remintus_Vulum
+recruit_character = IRN_Horatius_Lita
+recruit_character = IRN_Cassius_Vulum
+recruit_character = IRN_Remintus_Virta
+recruit_character = IRN_Decius_Tura
+recruit_character = IRN_Silvanlius_Civerba
+recruit_character = IRN_Paulustus_Arta
+recruit_character = IRN_Tibius_Nomena
+recruit_character = IRN_Silvanus_Arta
+recruit_character = IRN_Paulustus_Civerba
+recruit_character = IRN_Regulus_Civitum
+recruit_character = IRN_Gemus_Virta
+recruit_character = IRN_Paulustus_Domus
+recruit_character = IRN_Lucimus_Lita
+recruit_character = IRN_Longinus_Nomena
+recruit_character = IRN_Silvanus_Nomena
+recruit_character = IRN_Hornellus_Vulum
+recruit_character = IRN_Augus_Lita
+recruit_character = IRN_Graticus_Nomena
+recruit_character = IRN_Vitius_Opublis
+recruit_character = IRN_Spurius_Civitum
+recruit_character = IRN_Urbanus_Vulum
+recruit_character = IRN_Sextus_Tura
+recruit_character = IRN_Horacchus_Civerba
+recruit_character = IRN_Decimus_Arta
+recruit_character = IRN_Vitus_Domus
+recruit_character = IRN_Longintus_Opublis
+recruit_character = IRN_Manlianus_Civerba
+recruit_character = IRN_Brutus_Virta
+recruit_character = IRN_Paulustus_Opublis
+recruit_character = IRN_Gaius_Lita
+recruit_character = IRN_Varcus_Arta
+recruit_character = IRN_Regustus_Opublis
+recruit_character = IRN_Hornellus_Domus
+recruit_character = IRN_Gaius_Tura
+recruit_character = IRN_Decimus_Nomena
+recruit_character = IRN_Livius_Vulum
+recruit_character = IRN_Lucius_Lita
+recruit_character = IRN_Tibius_Civerba
+recruit_character = IRN_Coracchus_Domus
+recruit_character = IRN_Remintus_Arta
+recruit_character = IRN_Varcellus_Tura
+recruit_character = IRN_Longinus_Arta
+recruit_character = IRN_Livius_Tura
+recruit_character = IRN_Quinusus_Lita
+recruit_character = IRN_Vitius_Vulum
+recruit_character = IRN_Flavius_Opublis
+recruit_character = IRN_Prius_Lita
+recruit_character = IRN_Regus_Nomena
+recruit_character = IRN_Attius_Civerba
+recruit_character = IRN_Remintus_Civitum
+recruit_character = IRN_Antonginus_Civitum
+recruit_character = IRN_Antonius_Nomena
+recruit_character = IRN_Viberiscus_Arta
+recruit_character = IRN_Tibius_Domus
+recruit_character = IRN_Otho_Vulum
+recruit_character = IRN_Julus_Nomena
+recruit_character = IRN_Varcus_Opublis
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_convoys = 0
+set_stability = 48
+set_war_support = 66
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1886.11.22"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 21
+	fascism = 32
+	communism = 31
+	neutrality = 16
+}
+
+
+
+
+

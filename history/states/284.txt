@@ -1,0 +1,41 @@
+
+state={
+	id=284
+	name="STATE_284"
+	manpower = 1081041
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16440 6}
+		victory_points = { 16769 10}
+		victory_points = { 16884 6}
+		victory_points = { 16905 10}
+		
+		owner = FSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 3
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		16364 16372 16440 16441 16458 16557 16579 16597 16607 16634 16653 16684 16712 16742 16750 16756 16769 16794 16835 16844 16884 16905 16913 16914 16927 16948 16977 16978 17010 17032 17061 17062 17080 17096 17103 17120 17149 17197 17213 17274 17288 17299 17308 17370 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=93
+	name="STATE_93"
+	manpower = 712387
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9087 1}
+		victory_points = { 9340 7}
+		victory_points = { 9353 7}
+		victory_points = { 9506 5}
+		
+		owner = SAR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		9087 9106 9188 9224 9238 9296 9339 9340 9353 9378 9465 9466 9473 9505 9506 9523 9624 9632 9641 9642 9655 9684 9799 9837 9858 9951 9984 9985 10154 
+	}
+	local_supplies=0.0 
+}
