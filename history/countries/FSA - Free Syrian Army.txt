@@ -333,6 +333,9 @@ if = {
 		armored_car1 = 1
 	}
 }
+
+recruit_character = FSA_Riad_al_Asaad
+
 set_research_slots = 4
 set_convoys = 0
 set_stability = 82

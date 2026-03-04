@@ -16,6 +16,7 @@ replace_path="common/factions/templates"
 replace_path = "gfx/loadingscreens"
 replace_path = "common/national_focus"
 replace_path = "gfx/flags"
+replace_path = "common/bookmarks"
 tags={
 	"Gameplay"
 	"Historical"

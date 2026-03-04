@@ -81,12 +81,12 @@ characters = {
 		}
 
 	}
-	OPU_Urbanliustus_Opus={
-		name="Urbanliustus Opus"
+	OPU_Urbanliustus_Kuwait={
+		name="Urbanliustus Kuwait"
 
 		advisor={
 			slot = army_chief
-			idea_token = OPU_Urbanliustus_Opus
+			idea_token = OPU_Urbanliustus_Kuwait
 				traits = {	army_chief_reform_1 	}
 		}
 
@@ -111,12 +111,12 @@ characters = {
 		}
 
 	}
-	OPU_Severiscus_Opus={
-		name="Severiscus Opus"
+	OPU_Severiscus_Kuwait={
+		name="Severiscus Kuwait"
 
 		advisor={
 			slot = navy_chief
-			idea_token = OPU_Severiscus_Opus
+			idea_token = OPU_Severiscus_Kuwait
 				traits = {	navy_chief_maneuver_2 	}
 		}
 
@@ -161,12 +161,12 @@ characters = {
 		}
 
 	}
-	OPU_Faudius_Opus={
-		name="Faudius Opus"
+	OPU_Faudius_Kuwait={
+		name="Faudius Kuwait"
 
 		advisor={
 			slot = high_command
-			idea_token = OPU_Faudius_Opus
+			idea_token = OPU_Faudius_Kuwait
 				traits = {	navy_screen_1 	}
 		}
 
@@ -293,12 +293,12 @@ characters = {
 		}
 
 	}
-	OPU_Scaeverus_Opus={
-		name="Scaeverus Opus"
+	OPU_Scaeverus_Kuwait={
+		name="Scaeverus Kuwait"
 
 		advisor={
 			slot = army_chief
-			idea_token = OPU_Scaeverus_Opus
+			idea_token = OPU_Scaeverus_Kuwait
 				traits = {	army_chief_offensive_1 	}
 		}
 
@@ -515,12 +515,12 @@ characters = {
 		}
 
 	}
-	OPU_Graius_Opus={
-		name="Graius Opus"
+	OPU_Graius_Kuwait={
+		name="Graius Kuwait"
 
 		advisor={
 			slot = army_chief
-			idea_token = OPU_Graius_Opus
+			idea_token = OPU_Graius_Kuwait
 				traits = {	army_chief_offensive_1 	}
 		}
 
@@ -565,12 +565,12 @@ characters = {
 		}
 
 	}
-	OPU_Gemitius_Opus={
-		name="Gemitius Opus"
+	OPU_Gemitius_Kuwait={
+		name="Gemitius Kuwait"
 
 		advisor={
 			slot = air_chief
-			idea_token = OPU_Gemitius_Opus
+			idea_token = OPU_Gemitius_Kuwait
 				traits = {	air_chief_all_weather_2 	}
 		}
 
@@ -625,12 +625,12 @@ characters = {
 		}
 
 	}
-	OPU_Graticus_Opus={
-		name="Graticus Opus"
+	OPU_Graticus_Kuwait={
+		name="Graticus Kuwait"
 
 		advisor={
 			slot = high_command
-			idea_token = OPU_Graticus_Opus
+			idea_token = OPU_Graticus_Kuwait
 				traits = {	army_CombinedArms_2 	}
 		}
 
@@ -767,22 +767,22 @@ characters = {
 		}
 
 	}
-	OPU_Servius_Opus={
-		name="Servius Opus"
+	OPU_Servius_Kuwait={
+		name="Servius Kuwait"
 
 		advisor={
 			slot = air_chief
-			idea_token = OPU_Servius_Opus
+			idea_token = OPU_Servius_Kuwait
 				traits = {	air_chief_reform_1 	}
 		}
 
 	}
-	OPU_Silvanlius_Opus={
-		name="Silvanlius Opus"
+	OPU_Silvanlius_Kuwait={
+		name="Silvanlius Kuwait"
 
 		advisor={
 			slot = air_chief
-			idea_token = OPU_Silvanlius_Opus
+			idea_token = OPU_Silvanlius_Kuwait
 				traits = {	air_chief_night_operations_2 	}
 		}
 
@@ -837,12 +837,12 @@ characters = {
 		}
 
 	}
-	OPU_Paus_Opus={
-		name="Paus Opus"
+	OPU_Paus_Kuwait={
+		name="Paus Kuwait"
 
 		advisor={
 			slot = high_command
-			idea_token = OPU_Paus_Opus
+			idea_token = OPU_Paus_Kuwait
 				traits = {	army_radio_intelligence_2 	}
 		}
 

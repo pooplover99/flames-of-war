@@ -2,10 +2,10 @@ units= {
 	##### NAVAL UNITS #####
 	
 		fleet = {
-		name = "Opus Fleet"			
+		name = "Kuwait Fleet"			
 		naval_base = 2728
 		task_force = {
-			name = "Opus Fleet"
+			name = "Kuwait Fleet"
 			location = 2728
 			
 			
