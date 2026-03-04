@@ -1,6 +1,6 @@
 name="SyriaWar"
 picture="thumbnail.png"
-version="v1"
+version="v1.5"
 user_dir="SyriaWar"
 replace_path="history/states"
 replace_path="map/strategicregions"
