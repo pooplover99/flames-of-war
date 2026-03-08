@@ -1,0 +1,39 @@
+
+state={
+	id=68
+	name="STATE_68"
+	manpower = 1687129
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=9
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=6
+	}
+
+	history={
+		victory_points = { 14012 22}
+		victory_points = { 14211 30}
+		
+		owner = SAR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 4
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		13377 13408 13416 13473 13563 13591 13592 13614 13697 13698 13722 13734 13742 13772 13814 13829 13842 13920 13925 13926 13943 13944 13985 14012 14013 14015 14042 14057 14067 14069 14070 14092 14093 14094 14104 14114 14121 14171 14188 14210 14211 14255 14262 14263 14264 14273 14286 14290 14297 14302 14325 14333 14356 14411 14421 14430 14431 14437 14438 14439 14486 14487 14501 14549 14592 14593 14601 14632 14646 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Syrian Arab Republic Fleet"			
+		naval_base = 15561
+		task_force = {
+			name = "Syrian Arab Republic Fleet"
+			location = 15561
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

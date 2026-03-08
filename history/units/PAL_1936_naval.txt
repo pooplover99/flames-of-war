@@ -1,0 +1,26 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Palestine Fleet"			
+		naval_base = 6450
+		task_force = {
+			name = "Palestine Fleet"
+			location = 6450
+			
+			
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

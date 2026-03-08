@@ -1,0 +1,130 @@
+focus_tree = {
+    id = ISI_focus
+    country = {
+        factor = 0 modifier = { add = 10 tag = ISI }
+    }
+    default = no
+    continuous_focus_position = { x = 50 y = 1000 }
+
+    focus = {
+        id = ISI_start
+        icon = GFX_goal_unknown
+        x = 13
+        y = -2
+        cost = 10
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_start completed"
+        }
+    }
+
+    focus = {
+        id = ISI_focus
+        icon = GFX_goal_unknown
+        x = 13
+        y = 4
+        cost = 10
+        prerequisite = { focus = ISI_focus_2 }
+        prerequisite = { focus = ISI_focus_3 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_focus completed"
+        }
+    }
+
+    focus = {
+        id = ISI_focus_1
+        icon = GFX_goal_unknown
+        x = 13
+        y = 0
+        cost = 10
+        prerequisite = { focus = ISI_start }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_focus_1 completed"
+        }
+    }
+
+    focus = {
+        id = ISI_focus_2
+        icon = GFX_goal_unknown
+        x = 14
+        y = 2
+        cost = 10
+        prerequisite = { focus = ISI_focus_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_focus_2 completed"
+        }
+    }
+
+    focus = {
+        id = ISI_focus_4
+        icon = GFX_goal_unknown
+        x = 14
+        y = 6
+        cost = 10
+        prerequisite = { focus = ISI_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_focus_4 completed"
+        }
+    }
+
+    focus = {
+        id = ISI_focus_5
+        icon = GFX_goal_unknown
+        x = 16
+        y = 6
+        cost = 10
+        prerequisite = { focus = ISI_focus }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_focus_5 completed"
+        }
+    }
+
+    focus = {
+        id = ISI_focus_6
+        icon = GFX_goal_unknown
+        x = 15
+        y = 8
+        cost = 10
+        prerequisite = { focus = ISI_focus_4 }
+        prerequisite = { focus = ISI_focus_5 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_focus_6 completed"
+        }
+    }
+
+    focus = {
+        id = ISI_focus_3
+        icon = GFX_goal_unknown
+        x = 12
+        y = 2
+        cost = 10
+        prerequisite = { focus = ISI_focus_1 }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus ISI_focus_3 completed"
+        }
+    }
+
+}

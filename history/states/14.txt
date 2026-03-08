@@ -1,0 +1,38 @@
+
+state={
+	id=14
+	name="STATE_14"
+	manpower = 69173
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = RJA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FSA
+		add_core_of = RJA
+	}
+
+	provinces={
+		17085 17130 
+	}
+	local_supplies=0.0 
+}

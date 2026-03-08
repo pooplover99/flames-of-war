@@ -1,0 +1,40 @@
+
+state={
+	id=107
+	name="STATE_107"
+	manpower = 827307
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=21
+		oil=4
+		rubber=0
+		steel=47
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 18396 1}
+		victory_points = { 18722 1}
+		victory_points = { 18778 9}
+		
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		18187 18199 18200 18212 18232 18244 18245 18285 18298 18299 18300 18313 18327 18332 18333 18346 18348 18369 18396 18399 18435 18436 18443 18481 18488 18498 18503 18508 18509 18518 18546 18550 18551 18559 18560 18590 18624 18646 18647 18658 18672 18687 18694 18708 18714 18722 18738 18778 18779 18783 18792 18820 18831 18832 18852 18865 18872 18878 18886 18912 18917 18963 18969 18975 18980 18993 19004 19015 19029 19083 19093 19098 19103 19119 19157 19207 19210 19262 19289 
+	}
+	local_supplies=0.0 
+}

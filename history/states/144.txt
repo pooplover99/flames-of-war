@@ -1,0 +1,45 @@
+
+state={
+	id=144
+	name="STATE_144"
+	manpower = 1490616
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=9
+		rubber=0
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10160 8}
+		victory_points = { 10396 1}
+		victory_points = { 10617 20}
+		victory_points = { 11009 1}
+		victory_points = { 11302 14}
+		
+		owner = LEB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 4
+			dockyard = 2
+			11081 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LEB
+	}
+
+	provinces={
+		10160 10206 10241 10264 10315 10345 10374 10385 10395 10396 10458 10476 10494 10495 10512 10549 10550 10616 10617 10666 10685 10729 10750 10751 10762 10786 10818 10826 10892 10899 10915 10922 10974 11008 11009 11054 11081 11150 11160 11176 11177 11188 11206 11284 11302 11311 11328 11361 11362 11424 11425 11446 11471 11472 11475 11485 11501 11539 11610 11643 11644 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,15 @@
+characters = {
+	FSA_Riad_al_Asaad = {
+		name = "FSA_Riad_al_Asaad"
+			portraits = {
+				army = {
+					large = GFX_portrait_place
+				}
+			}
+		
+		country_leader = {
+			ideology = despotism
+		}
+
+	}
+}

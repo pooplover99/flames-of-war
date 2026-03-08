@@ -1,0 +1,37 @@
+
+state={
+	id=9
+	name="STATE_9"
+	manpower = 189766
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=8
+		chromium=3
+		oil=37
+		rubber=0
+		steel=8
+		tungsten=0
+		coal=67
+	}
+
+	history={
+		
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		10 11 12 13 14 15 16 17 18 122 123 140 143 154 183 184 192 212 217 222 252 257 264 272 273 298 300 309 316 326 339 345 356 364 396 404 405 414 434 438 443 449 454 482 488 510 527 529 539 547 558 563 567 568 595 626 647 652 659 667 697 698 706 757 766 770 771 773 780 787 809 816 843 853 884 885 891 896 904 918 931 962 963 982 1006 1017 1026 1043 1053 1065 1097 1103 1124 1128 1157 1205 1212 1221 1241 1248 1251 1262 1348 1375 1386 1392 1401 1435 1486 1542 1555 1578 1641 1691 1717 1760 2025 
+	}
+	local_supplies=0.0 
+}

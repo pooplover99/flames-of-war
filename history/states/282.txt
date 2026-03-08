@@ -1,0 +1,37 @@
+
+state={
+	id=282
+	name="STATE_282"
+	manpower = 120713
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		19196 19246 19247 19293 19314 19374 19381 19403 19413 19441 19451 19457 19461 19486 19487 19496 19497 19516 19525 19532 19544 19551 19557 19558 19577 19594 19602 19608 19631 19635 19636 19653 19656 19667 19679 19695 19711 19718 19726 19733 19757 19762 19768 19774 19779 19784 19795 19802 19806 19807 19808 19829 19830 19847 
+	}
+	local_supplies=0.0 
+}

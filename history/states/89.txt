@@ -1,0 +1,37 @@
+
+state={
+	id=89
+	name="STATE_89"
+	manpower = 122257
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=1
+		oil=0
+		rubber=0
+		steel=29
+		tungsten=7
+		coal=0
+	}
+
+	history={
+		
+		owner = IRN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IRN
+	}
+
+	provinces={
+		17358 17392 17415 17464 17484 17554 17594 17603 17615 17629 17676 17740 17825 17847 17853 17859 17890 17929 17949 17950 17998 18030 18041 18049 18060 18080 18145 18174 18196 18208 18221 18234 18248 18259 18305 18344 18393 18415 18446 18461 18462 18475 18527 18542 18565 18632 18639 18663 18682 18696 18697 18741 18784 18798 18825 18839 18840 18898 18935 18941 18971 18995 19016 19080 19149 19203 
+	}
+	local_supplies=0.0 
+}

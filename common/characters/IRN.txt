@@ -1,0 +1,880 @@
+characters = {
+	IRN_Coracchus_Civitum={
+		name="Coracchus Civitum"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRN_Regustus_Domus={
+		name="Regustus Domus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Regustus_Domus
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	IRN_Prius_Nomena={
+		name="Prius Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Prius_Nomena
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	IRN_Graticus_Opublis={
+		name="Graticus Opublis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Graticus_Opublis
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	IRN_Nerus_Opublis={
+		name="Nerus Opublis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Nerus_Opublis
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	IRN_Valervius_Nomena={
+		name="Valervius Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Valervius_Nomena
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	IRN_Cassius_Domus={
+		name="Cassius Domus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Cassius_Domus
+				traits = {	humble 	}
+		}
+
+	}
+	IRN_Faulus_Domus={
+		name="Faulus Domus"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Faulus_Domus
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	IRN_Antonginus_Opublis={
+		name="Antonginus Opublis"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Antonginus_Opublis
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	IRN_Sextus_Civitum={
+		name="Sextus Civitum"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Sextus_Civitum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	IRN_Gaianus_Civerba={
+		name="Gaianus Civerba"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Gaianus_Civerba
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	IRN_Gaius_Arta={
+		name="Gaius Arta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Gaius_Arta
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	IRN_Paus_Opublis={
+		name="Paus Opublis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Paus_Opublis
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IRN_Augulus_Domus={
+		name="Augulus Domus"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Augulus_Domus
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	IRN_Brutus_Arta={
+		name="Brutus Arta"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Brutus_Arta
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	IRN_Silvanlius_Opublis={
+		name="Silvanlius Opublis"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Silvanlius_Opublis
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	IRN_Flaus_Civerba={
+		name="Flaus Civerba"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Flaus_Civerba
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	IRN_Titus_Civitum={
+		name="Titus Civitum"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Titus_Civitum
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	IRN_Lucimus_Civerba={
+		name="Lucimus Civerba"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Lucimus_Civerba
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	IRN_Gemus_Civerba={
+		name="Gemus Civerba"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Gemus_Civerba
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	IRN_Paus_Tura={
+		name="Paus Tura"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Paus_Tura
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	IRN_Quinusus_Civerba={
+		name="Quinusus Civerba"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRN_Tibervius_Civerba={
+		name="Tibervius Civerba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Tibervius_Civerba
+				traits = {	basileus 	}
+		}
+
+	}
+	IRN_Cornelius_Arta={
+		name="Cornelius Arta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Cornelius_Arta
+				traits = {	polemarch 	}
+		}
+
+	}
+	IRN_Hornellus_Tura={
+		name="Hornellus Tura"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Hornellus_Tura
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	IRN_Otho_Nomena={
+		name="Otho Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Otho_Nomena
+				traits = {	basileus 	}
+		}
+
+	}
+	IRN_Titus_Nomena={
+		name="Titus Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Titus_Nomena
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	IRN_Drus_Civerba={
+		name="Drus Civerba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Drus_Civerba
+				traits = {	warmonger 	}
+		}
+
+	}
+	IRN_Sextus_Vulum={
+		name="Sextus Vulum"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Sextus_Vulum
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	IRN_Remintus_Vulum={
+		name="Remintus Vulum"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Remintus_Vulum
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	IRN_Horatius_Lita={
+		name="Horatius Lita"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Horatius_Lita
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	IRN_Cassius_Vulum={
+		name="Cassius Vulum"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Cassius_Vulum
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	IRN_Remintus_Virta={
+		name="Remintus Virta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Remintus_Virta
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	IRN_Decius_Tura={
+		name="Decius Tura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Decius_Tura
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	IRN_Silvanlius_Civerba={
+		name="Silvanlius Civerba"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Silvanlius_Civerba
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	IRN_Paulustus_Arta={
+		name="Paulustus Arta"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Paulustus_Arta
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	IRN_Tibius_Nomena={
+		name="Tibius Nomena"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Tibius_Nomena
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	IRN_Silvanus_Arta={
+		name="Silvanus Arta"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Silvanus_Arta
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	IRN_Paulustus_Civerba={
+		name="Paulustus Civerba"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Paulustus_Civerba
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	IRN_Regulus_Civitum={
+		name="Regulus Civitum"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Regulus_Civitum
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	IRN_Gemus_Virta={
+		name="Gemus Virta"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Gemus_Virta
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	IRN_Paulustus_Domus={
+		name="Paulustus Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Paulustus_Domus
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	IRN_Lucimus_Lita={
+		name="Lucimus Lita"
+
+		
+		country_leader={
+			ideology=stalinism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRN_Longinus_Nomena={
+		name="Longinus Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Longinus_Nomena
+				traits = {	political_dancer 	}
+		}
+
+	}
+	IRN_Silvanus_Nomena={
+		name="Silvanus Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Silvanus_Nomena
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	IRN_Hornellus_Vulum={
+		name="Hornellus Vulum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Hornellus_Vulum
+				traits = {	political_dancer 	}
+		}
+
+	}
+	IRN_Augus_Lita={
+		name="Augus Lita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Augus_Lita
+				traits = {	infirm 	}
+		}
+
+	}
+	IRN_Graticus_Nomena={
+		name="Graticus Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Graticus_Nomena
+				traits = {	polemarch 	}
+		}
+
+	}
+	IRN_Vitius_Opublis={
+		name="Vitius Opublis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Vitius_Opublis
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	IRN_Spurius_Civitum={
+		name="Spurius Civitum"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Spurius_Civitum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	IRN_Urbanus_Vulum={
+		name="Urbanus Vulum"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Urbanus_Vulum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	IRN_Sextus_Tura={
+		name="Sextus Tura"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Sextus_Tura
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IRN_Horacchus_Civerba={
+		name="Horacchus Civerba"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Horacchus_Civerba
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IRN_Decimus_Arta={
+		name="Decimus Arta"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Decimus_Arta
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IRN_Vitus_Domus={
+		name="Vitus Domus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Vitus_Domus
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	IRN_Longintus_Opublis={
+		name="Longintus Opublis"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Longintus_Opublis
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	IRN_Manlianus_Civerba={
+		name="Manlianus Civerba"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Manlianus_Civerba
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	IRN_Brutus_Virta={
+		name="Brutus Virta"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Brutus_Virta
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	IRN_Paulustus_Opublis={
+		name="Paulustus Opublis"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Paulustus_Opublis
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	IRN_Gaius_Lita={
+		name="Gaius Lita"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Gaius_Lita
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	IRN_Varcus_Arta={
+		name="Varcus Arta"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Varcus_Arta
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	IRN_Regustus_Opublis={
+		name="Regustus Opublis"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Regustus_Opublis
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	IRN_Hornellus_Domus={
+		name="Hornellus Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Hornellus_Domus
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	IRN_Gaius_Tura={
+		name="Gaius Tura"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRN_Decimus_Nomena={
+		name="Decimus Nomena"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Decimus_Nomena
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	IRN_Livius_Vulum={
+		name="Livius Vulum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Livius_Vulum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	IRN_Lucius_Lita={
+		name="Lucius Lita"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Lucius_Lita
+				traits = {	infirm 	}
+		}
+
+	}
+	IRN_Tibius_Civerba={
+		name="Tibius Civerba"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Tibius_Civerba
+				traits = {	first_lady 	}
+		}
+
+	}
+	IRN_Coracchus_Domus={
+		name="Coracchus Domus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Coracchus_Domus
+				traits = {	infirm 	}
+		}
+
+	}
+	IRN_Remintus_Arta={
+		name="Remintus Arta"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRN_Remintus_Arta
+				traits = {	infirm 	}
+		}
+
+	}
+	IRN_Varcellus_Tura={
+		name="Varcellus Tura"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Varcellus_Tura
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	IRN_Longinus_Arta={
+		name="Longinus Arta"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Longinus_Arta
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	IRN_Livius_Tura={
+		name="Livius Tura"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Livius_Tura
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	IRN_Quinusus_Lita={
+		name="Quinusus Lita"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRN_Quinusus_Lita
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	IRN_Vitius_Vulum={
+		name="Vitius Vulum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Vitius_Vulum
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	IRN_Flavius_Opublis={
+		name="Flavius Opublis"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRN_Flavius_Opublis
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	IRN_Prius_Lita={
+		name="Prius Lita"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Prius_Lita
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	IRN_Regus_Nomena={
+		name="Regus Nomena"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRN_Regus_Nomena
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	IRN_Attius_Civerba={
+		name="Attius Civerba"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Attius_Civerba
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	IRN_Remintus_Civitum={
+		name="Remintus Civitum"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Remintus_Civitum
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	IRN_Antonginus_Civitum={
+		name="Antonginus Civitum"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Antonginus_Civitum
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	IRN_Antonius_Nomena={
+		name="Antonius Nomena"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Antonius_Nomena
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	IRN_Viberiscus_Arta={
+		name="Viberiscus Arta"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Viberiscus_Arta
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	IRN_Tibius_Domus={
+		name="Tibius Domus"
+
+		advisor={
+			slot = high_command
+			idea_token = IRN_Tibius_Domus
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	IRN_Otho_Vulum={
+		name="Otho Vulum"
+
+		advisor={
+			slot = theorist
+			idea_token = IRN_Otho_Vulum
+				traits = {	military_theorist 	}
+		}
+
+	}
+	IRN_Julus_Nomena={
+		name="Julus Nomena"
+
+		advisor={
+			slot = theorist
+			idea_token = IRN_Julus_Nomena
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	IRN_Varcus_Opublis={
+		name="Varcus Opublis"
+
+		advisor={
+			slot = theorist
+			idea_token = IRN_Varcus_Opublis
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

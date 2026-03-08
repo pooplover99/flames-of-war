@@ -1,0 +1,40 @@
+
+state={
+	id=60
+	name="STATE_60"
+	manpower = 173490
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=5
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2437 1}
+		victory_points = { 2620 1}
+		victory_points = { 2721 1}
+		
+		owner = ISR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = ISR
+	}
+
+	provinces={
+		2437 2620 2721 2877 2892 2984 
+	}
+	local_supplies=0.0 
+}

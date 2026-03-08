@@ -1,0 +1,44 @@
+
+state={
+	id=172
+	name="STATE_172"
+	manpower = 1839079
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=15
+		oil=7
+		rubber=0
+		steel=0
+		tungsten=9
+		coal=16
+	}
+
+	history={
+		victory_points = { 11972 14}
+		victory_points = { 12023 9}
+		victory_points = { 12666 19}
+		victory_points = { 13028 14}
+		
+		owner = LEB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 6
+			industrial_complex = 2
+			dockyard = 1
+			12666 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = LEB
+	}
+
+	provinces={
+		11473 11474 11549 11550 11596 11609 11611 11624 11675 11683 11689 11715 11754 11755 11762 11779 11792 11822 11851 11852 11878 11911 11928 11940 11972 11998 12003 12017 12023 12029 12049 12072 12102 12143 12173 12174 12180 12216 12226 12239 12253 12301 12323 12334 12354 12365 12366 12396 12458 12469 12470 12491 12533 12566 12598 12614 12638 12666 12690 12734 12742 12754 12812 12849 12857 12895 12930 12969 12982 13015 13028 13068 13072 13099 13109 13189 
+	}
+	local_supplies=0.0 
+}

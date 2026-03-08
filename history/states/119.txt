@@ -1,0 +1,39 @@
+
+state={
+	id=119
+	name="STATE_119"
+	manpower = 233491
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=2
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 18807 1}
+		victory_points = { 18961 1}
+		
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		17367 17513 17628 17665 17673 17744 17759 17783 17826 17879 17934 18007 18043 18063 18115 18182 18236 18281 18289 18425 18449 18578 18635 18771 18807 18961 19059 19172 19343 
+	}
+	local_supplies=0.0 
+}

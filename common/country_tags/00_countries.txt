@@ -1,0 +1,2 @@
+# Country tags
+ISI = "countries/Islamic State.txt"

@@ -1,0 +1,40 @@
+
+state={
+	id=276
+	name="STATE_276"
+	manpower = 166353
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16710 1}
+		victory_points = { 16723 1}
+		victory_points = { 16942 1}
+		
+		owner = RJA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		16710 16723 16919 16942 17095 17138 
+	}
+	local_supplies=0.0 
+}

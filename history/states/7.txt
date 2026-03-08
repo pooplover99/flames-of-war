@@ -1,0 +1,37 @@
+
+state={
+	id=7
+	name="STATE_7"
+	manpower = 84717
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=15
+		rubber=0
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = EGY
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = EGY
+	}
+
+	provinces={
+		19 20 21 22 23 24 25 26 124 125 148 171 207 213 228 261 288 317 318 340 341 354 365 415 422 465 474 483 484 530 569 608 622 673 699 711 758 825 835 874 1018 
+	}
+	local_supplies=0.0 
+}

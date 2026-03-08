@@ -1,0 +1,880 @@
+characters = {
+	IRQ_Yuba_Anzart={
+		name="Yuba Anzart"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRQ_Amoun_Takilen={
+		name="Amoun Takilen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Amoun_Takilen
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	IRQ_Mimoun_Asirt={
+		name="Mimoun Asirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Mimoun_Asirt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	IRQ_Amoun_Anzart={
+		name="Amoun Anzart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Amoun_Anzart
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	IRQ_Iderfannissi_Asirt={
+		name="Iderfannissi Asirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Iderfannissi_Asirt
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	IRQ_Mokran_Adrawt={
+		name="Mokran Adrawt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Mokran_Adrawt
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	IRQ_Mokrane_Adrart={
+		name="Mokrane Adrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Mokrane_Adrart
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	IRQ_Meziz_Akala={
+		name="Meziz Akala"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Meziz_Akala
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IRQ_Yuba_Akala={
+		name="Yuba Akala"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Yuba_Akala
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	IRQ_Iderfax_Adrart={
+		name="Iderfax Adrart"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Iderfax_Adrart
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	IRQ_Sifan_Adrart={
+		name="Sifan Adrart"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Sifan_Adrart
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	IRQ_Aselmarimoun_Islit={
+		name="Aselmarimoun Islit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Aselmarimoun_Islit
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IRQ_Lyes_Takilen={
+		name="Lyes Takilen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Lyes_Takilen
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	IRQ_Iderfax_Anzart={
+		name="Iderfax Anzart"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Iderfax_Anzart
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	IRQ_Massa_Asirt={
+		name="Massa Asirt"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Massa_Asirt
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	IRQ_Iderfan_Adrawt={
+		name="Iderfan Adrawt"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Iderfan_Adrawt
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	IRQ_Amokran_Akala={
+		name="Amokran Akala"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Amokran_Akala
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	IRQ_Iderfannissi_Aghas={
+		name="Iderfannissi Aghas"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Iderfannissi_Aghas
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	IRQ_Azian_Takilen={
+		name="Azian Takilen"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Azian_Takilen
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	IRQ_Mokrannis_Anzart={
+		name="Mokrannis Anzart"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Mokrannis_Anzart
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	IRQ_Aziz_Islit={
+		name="Aziz Islit"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Aziz_Islit
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	IRQ_Amoun_Islit={
+		name="Amoun Islit"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRQ_Taharen_Islit={
+		name="Taharen Islit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Taharen_Islit
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	IRQ_Ziri_Asirt={
+		name="Ziri Asirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Ziri_Asirt
+				traits = {	autokrator 	}
+		}
+
+	}
+	IRQ_Meziz_Tissit={
+		name="Meziz Tissit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Meziz_Tissit
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	IRQ_Ziriq_Akala={
+		name="Ziriq Akala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Ziriq_Akala
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	IRQ_Iskar_Anzart={
+		name="Iskar Anzart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Iskar_Anzart
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	IRQ_Tahar_Akala={
+		name="Tahar Akala"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Tahar_Akala
+				traits = {	autokrator 	}
+		}
+
+	}
+	IRQ_Sifan_Islit={
+		name="Sifan Islit"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Sifan_Islit
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	IRQ_Iderfan_Takilen={
+		name="Iderfan Takilen"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Iderfan_Takilen
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	IRQ_Iskariq_Adrawt={
+		name="Iskariq Adrawt"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Iskariq_Adrawt
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	IRQ_Mokrannissa_Anzart={
+		name="Mokrannissa Anzart"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Mokrannissa_Anzart
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	IRQ_Aselmarimoun_Adrawt={
+		name="Aselmarimoun Adrawt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Aselmarimoun_Adrawt
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IRQ_Kari_Tissit={
+		name="Kari Tissit"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Kari_Tissit
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	IRQ_Sifan_Takilen={
+		name="Sifan Takilen"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Sifan_Takilen
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	IRQ_Iskaren_Akala={
+		name="Iskaren Akala"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Iskaren_Akala
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	IRQ_Ziri_Takilen={
+		name="Ziri Takilen"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Ziri_Takilen
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	IRQ_Tafsut_Anzart={
+		name="Tafsut Anzart"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Tafsut_Anzart
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	IRQ_Massinis_Adrart={
+		name="Massinis Adrart"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Massinis_Adrart
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	IRQ_Ziri_Anzart={
+		name="Ziri Anzart"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Ziri_Anzart
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	IRQ_Massa_Adrawt={
+		name="Massa Adrawt"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Massa_Adrawt
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	IRQ_Iderfan_Tissit={
+		name="Iderfan Tissit"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Iderfan_Tissit
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	IRQ_Iderfax_Islit={
+		name="Iderfax Islit"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRQ_Amokrane_Takilen={
+		name="Amokrane Takilen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Amokrane_Takilen
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	IRQ_Aselmad_Islit={
+		name="Aselmad Islit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Aselmad_Islit
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	IRQ_Kari_Aghas={
+		name="Kari Aghas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Kari_Aghas
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	IRQ_Iderfannissi_Adrawt={
+		name="Iderfannissi Adrawt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Iderfannissi_Adrawt
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	IRQ_Mokrannis_Aghas={
+		name="Mokrannis Aghas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Mokrannis_Aghas
+				traits = {	polemarch 	}
+		}
+
+	}
+	IRQ_Mezian_Tissit={
+		name="Mezian Tissit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Mezian_Tissit
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	IRQ_Amad_Asirt={
+		name="Amad Asirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Amad_Asirt
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	IRQ_Massinis_Akala={
+		name="Massinis Akala"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Massinis_Akala
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	IRQ_Aselmaren_Asirt={
+		name="Aselmaren Asirt"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Aselmaren_Asirt
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	IRQ_Azian_Aghas={
+		name="Azian Aghas"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Azian_Aghas
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	IRQ_Amokrane_Anzart={
+		name="Amokrane Anzart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Amokrane_Anzart
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	IRQ_Iderfane_Akala={
+		name="Iderfane Akala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Iderfane_Akala
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IRQ_Amokran_Takilen={
+		name="Amokran Takilen"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Amokran_Takilen
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	IRQ_Iderfane_Anzart={
+		name="Iderfane Anzart"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Iderfane_Anzart
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	IRQ_Ziri_Adrawt={
+		name="Ziri Adrawt"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Ziri_Adrawt
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	IRQ_Sifan_Tissit={
+		name="Sifan Tissit"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Sifan_Tissit
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	IRQ_Massinissa_Islit={
+		name="Massinissa Islit"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Massinissa_Islit
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	IRQ_Iskar_Adrawt={
+		name="Iskar Adrawt"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Iskar_Adrawt
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	IRQ_Mokrane_Aghas={
+		name="Mokrane Aghas"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Mokrane_Aghas
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	IRQ_Iskari_Adrawt={
+		name="Iskari Adrawt"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Iskari_Adrawt
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	IRQ_Sifax_Akala={
+		name="Sifax Akala"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { liberal_democratic_paragon  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	IRQ_Ziriq_Anzart={
+		name="Ziriq Anzart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Ziriq_Anzart
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	IRQ_Mimoun_Adrart={
+		name="Mimoun Adrart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Mimoun_Adrart
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	IRQ_Aziane_Takilen={
+		name="Aziane Takilen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Aziane_Takilen
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	IRQ_Mimoun_Tissit={
+		name="Mimoun Tissit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Mimoun_Tissit
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	IRQ_Sifax_Anzart={
+		name="Sifax Anzart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Sifax_Anzart
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	IRQ_Tarimoun_Takilen={
+		name="Tarimoun Takilen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = IRQ_Tarimoun_Takilen
+				traits = {	first_lady 	}
+		}
+
+	}
+	IRQ_Saidi_Takilen={
+		name="Saidi Takilen"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Saidi_Takilen
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	IRQ_Lyes_Aghas={
+		name="Lyes Aghas"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Lyes_Aghas
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	IRQ_Iderfane_Takilen={
+		name="Iderfane Takilen"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Iderfane_Takilen
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	IRQ_Massinis_Adrawt={
+		name="Massinis Adrawt"
+
+		advisor={
+			slot = army_chief
+			idea_token = IRQ_Massinis_Adrawt
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	IRQ_Mokran_Aghas={
+		name="Mokran Aghas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Mokran_Aghas
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	IRQ_Aziane_Akala={
+		name="Aziane Akala"
+
+		advisor={
+			slot = navy_chief
+			idea_token = IRQ_Aziane_Akala
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	IRQ_Saidi_Islit={
+		name="Saidi Islit"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Saidi_Islit
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	IRQ_Yuba_Adrart={
+		name="Yuba Adrart"
+
+		advisor={
+			slot = air_chief
+			idea_token = IRQ_Yuba_Adrart
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	IRQ_Tafsut_Adrart={
+		name="Tafsut Adrart"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Tafsut_Adrart
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	IRQ_Aselmaren_Aghas={
+		name="Aselmaren Aghas"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Aselmaren_Aghas
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	IRQ_Massinissini_Asirt={
+		name="Massinissini Asirt"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Massinissini_Asirt
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	IRQ_Tarimoun_Asirt={
+		name="Tarimoun Asirt"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Tarimoun_Asirt
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	IRQ_Iskariq_Aghas={
+		name="Iskariq Aghas"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Iskariq_Aghas
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	IRQ_Ziriq_Tissit={
+		name="Ziriq Tissit"
+
+		advisor={
+			slot = high_command
+			idea_token = IRQ_Ziriq_Tissit
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	IRQ_Tarimoun_Aghas={
+		name="Tarimoun Aghas"
+
+		advisor={
+			slot = theorist
+			idea_token = IRQ_Tarimoun_Aghas
+				traits = {	military_theorist 	}
+		}
+
+	}
+	IRQ_Massinis_Islit={
+		name="Massinis Islit"
+
+		advisor={
+			slot = theorist
+			idea_token = IRQ_Massinis_Islit
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	IRQ_Massinissa_Adrart={
+		name="Massinissa Adrart"
+
+		advisor={
+			slot = theorist
+			idea_token = IRQ_Massinissa_Adrart
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

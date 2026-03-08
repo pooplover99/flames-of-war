@@ -1,0 +1,37 @@
+
+state={
+	id=11
+	name="STATE_11"
+	manpower = 109002
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=37
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=2
+		coal=33
+	}
+
+	history={
+		
+		owner = SAU
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 127 138 141 142 149 155 160 172 194 198 201 208 218 229 232 243 247 258 262 265 274 281 289 304 310 319 343 346 360 363 366 367 369 377 391 392 428 435 444 450 495 511 540 551 580 
+	}
+	local_supplies=0.0 
+}

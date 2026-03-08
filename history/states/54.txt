@@ -1,0 +1,40 @@
+
+state={
+	id=54
+	name="STATE_54"
+	manpower = 354759
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17260 5}
+		victory_points = { 17632 5}
+		
+		owner = RJA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FSA
+		add_core_of = RJA
+	}
+
+	provinces={
+		17251 17260 17281 17297 17369 17382 17451 17460 17577 17590 17632 17760 17766 17855 
+	}
+	local_supplies=0.0 
+}

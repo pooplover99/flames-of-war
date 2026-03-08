@@ -1,0 +1,39 @@
+
+state={
+	id=167
+	name="STATE_167"
+	manpower = 397395
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11364 5}
+		victory_points = { 11636 5}
+		
+		owner = SAR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		11170 11178 11252 11264 11303 11312 11323 11364 11417 11426 11427 11453 11486 11541 11597 11636 
+	}
+	local_supplies=0.0 
+}

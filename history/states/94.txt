@@ -1,0 +1,43 @@
+
+state={
+	id=94
+	name="STATE_94"
+	manpower = 495972
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17591 1}
+		victory_points = { 17646 2}
+		victory_points = { 17777 2}
+		victory_points = { 17785 4}
+		victory_points = { 17842 4}
+		
+		owner = RJA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = RJA
+		add_core_of = FSA
+	}
+
+	provinces={
+		17591 17599 17622 17639 17646 17666 17698 17707 17777 17785 17818 17842 17903 17966 17967 17993 18065 18071 18083 18131 
+	}
+	local_supplies=0.0 
+}

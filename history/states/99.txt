@@ -1,0 +1,40 @@
+
+state={
+	id=99
+	name="STATE_99"
+	manpower = 644061
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=7
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 6686 2}
+		victory_points = { 7684 4}
+		victory_points = { 8661 4}
+		
+		owner = JOR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = JOR
+	}
+
+	provinces={
+		6686 6763 6987 6993 7124 7156 7168 7270 7340 7343 7433 7434 7487 7499 7528 7626 7647 7665 7678 7684 7750 7772 7843 7854 7864 7920 7927 7961 7977 8040 8081 8089 8099 8123 8206 8214 8226 8265 8275 8276 8446 8493 8661 8812 
+	}
+	local_supplies=0.0 
+}

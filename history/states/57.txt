@@ -1,0 +1,41 @@
+
+state={
+	id=57
+	name="STATE_57"
+	manpower = 336971
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 17269 1}
+		victory_points = { 17270 1}
+		victory_points = { 17372 3}
+		victory_points = { 17410 3}
+		
+		owner = FSA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		17170 17269 17270 17282 17293 17372 17410 17429 17439 17509 17555 17609 17675 
+	}
+	local_supplies=0.0 
+}

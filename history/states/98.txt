@@ -1,0 +1,41 @@
+
+state={
+	id=98
+	name="STATE_98"
+	manpower = 142894
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=0
+		rubber=228
+		steel=12
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8875 1}
+		
+		owner = IRN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			8952 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = IRN
+	}
+
+	provinces={
+		6599 6662 6721 6730 6755 6830 6844 6927 7015 7016 7027 7184 7185 7198 7314 7355 7376 7377 7441 7493 7577 7587 7616 7625 7814 7841 7852 7853 7887 7959 8061 8071 8087 8107 8249 8299 8321 8329 8338 8367 8504 8517 8557 8566 8592 8628 8637 8728 8754 8859 8875 8944 8945 8952 8965 8986 9080 9100 9163 9192 9245 9274 9284 9385 9409 9415 9504 9560 9650 9651 9694 9795 9828 9872 9975 10128 10294 
+	}
+	local_supplies=0.0 
+}

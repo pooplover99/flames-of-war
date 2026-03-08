@@ -1,0 +1,41 @@
+
+state={
+	id=149
+	name="STATE_149"
+	manpower = 998050
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=10
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=32
+	}
+
+	history={
+		victory_points = { 10459 8}
+		victory_points = { 10496 5}
+		victory_points = { 10828 8}
+		victory_points = { 11241 8}
+		
+		owner = SAR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 2
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		10279 10290 10308 10316 10351 10418 10419 10444 10459 10496 10518 10524 10564 10636 10647 10656 10677 10690 10701 10770 10776 10803 10828 10837 10851 10862 10905 10935 10975 10997 11011 11060 11134 11142 11179 11189 11190 11241 11346 11354 11496 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,147 @@
+focus_tree = {
+    id = free_syria_Tree
+
+	continuous_focus_position = { x = 50 y = 2500 }
+
+    country = {
+        base = 0
+        modifier = {
+           add = 10
+           tag = FSA
+        }
+    }
+
+
+    focus = {
+        id = top
+        x = 5
+        y = 1.5
+        cost = 5
+        }
+    
+     focus = {
+        id = right
+        relative_position_id = top
+        x = 2
+        y = 1.5
+        cost = 5
+
+        prerequisite = {
+            focus = top
+        }
+
+    }
+    
+     focus = {
+        id = middle
+        relative_position_id = top
+        x = 0
+        y = 1.5
+        cost = 5
+
+        prerequisite = {
+            focus = top
+        }
+    }
+
+     focus = {
+        id = left
+        relative_position_id = top
+        x = 3
+        y = 3
+        cost = 5
+
+        prerequisite = {
+            focus = top
+        }
+    }
+
+     focus = {
+        id = left_1
+        relative_position_id = left
+        x = 0
+        y = 1.5
+        cost = 5
+
+        prerequisite = {
+            focus = left
+        }
+    }     
+    
+    focus = {
+        id = left_2
+        relative_position_id = left_1
+        x = 0
+        y = 1.5
+        cost = 5
+
+        prerequisite = {
+            focus = left_1
+        }
+    }
+
+     focus = {
+        id = middle_1
+        relative_position_id = middle
+        x = 0
+        y = 1.5
+        cost = 5
+
+        prerequisite = {
+            focus = middle
+        }
+    }
+
+     focus = {
+        id = middle_2
+        relative_position_id = middle_1
+        x = 5
+        y = 6
+        cost = 5
+
+        prerequisite = {
+            focus = middle_1
+        }
+    }
+    
+     focus = {
+        id = right_1
+        relative_position_id = right
+        x = 0
+        y = 1.5
+        cost = 5
+
+        prerequisite = {
+            focus = right
+        }
+     }
+     focus = {
+        id = right_2
+        relative_position_id = right_1
+        x = 0
+        y = 1.5
+        cost = 5
+
+        prerequisite = {
+            focus = right_1
+        }
+
+    }
+
+     focus = {
+         id = bottom
+         icon = GFX_goal_unknown
+         x = 5
+         y = 8
+         cost = 2
+         prerequisite = { focus = middle_2 focus = right_2 focus = left_2 }
+         ai_will_do = {
+             factor = 1
+         }
+         completion_reward = {
+             log = "[GetDateText]: [Root.GetName]: Focus bottom completed"
+         }
+     }
+
+}
+

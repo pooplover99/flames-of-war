@@ -1,0 +1,39 @@
+
+state={
+	id=180
+	name="STATE_180"
+	manpower = 668559
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=68
+	}
+
+	history={
+		victory_points = { 12114 13}
+		victory_points = { 12522 6}
+		
+		owner = SAR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		12043 12114 12127 12210 12244 12264 12265 12384 12429 12430 12473 12522 12536 12632 12639 12640 12707 12737 12806 12831 12885 12946 12998 13009 13075 13183 13196 
+	}
+	local_supplies=0.0 
+}

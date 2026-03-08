@@ -1,0 +1,41 @@
+
+state={
+	id=159
+	name="STATE_159"
+	manpower = 135554
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=1
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10687 1}
+		victory_points = { 10688 1}
+		victory_points = { 10801 1}
+		victory_points = { 10802 1}
+		
+		owner = SAR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		10687 10688 10756 10801 10802 10834 10835 10861 10878 10923 10961 
+	}
+	local_supplies=0.0 
+}

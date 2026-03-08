@@ -1,0 +1,43 @@
+
+state={
+	id=74
+	name="STATE_74"
+	manpower = 383204
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 16417 1}
+		victory_points = { 17128 1}
+		victory_points = { 17342 1}
+		
+		owner = TUR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			16583 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		16279 16317 16380 16396 16417 16418 16419 16425 16449 16450 16583 16623 16631 16664 16665 16717 16755 16783 16832 16901 16902 16972 17031 17099 17128 17129 17258 17316 17342 17397 17437 17547 17606 
+	}
+	local_supplies=0.0 
+}

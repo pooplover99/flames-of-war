@@ -1,0 +1,37 @@
+
+state={
+	id=123
+	name="STATE_123"
+	manpower = 130513
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=13
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = IRN
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = IRN
+	}
+
+	provinces={
+		18740 18760 18932 18948 19054 19105 19161 19202 19253 19280 19281 19297 19340 19348 19384 19401 19450 19464 19506 19514 19518 19521 19571 19623 19637 19663 19664 19736 19737 19788 19789 19804 19835 19880 
+	}
+	local_supplies=0.0 
+}

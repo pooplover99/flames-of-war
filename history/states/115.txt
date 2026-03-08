@@ -1,0 +1,41 @@
+
+state={
+	id=115
+	name="STATE_115"
+	manpower = 1482551
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=33
+		chromium=0
+		oil=2
+		rubber=10
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9065 36}
+		victory_points = { 9741 7}
+		victory_points = { 9976 1}
+		victory_points = { 10162 2}
+		
+		owner = FSA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 5
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FSA
+	}
+
+	provinces={
+		8435 8436 8535 8595 8689 8705 8756 8787 8837 8861 8862 8871 8968 8995 9011 9046 9065 9101 9125 9126 9194 9195 9235 9236 9251 9258 9314 9330 9391 9398 9426 9522 9532 9538 9595 9631 9652 9668 9740 9741 9749 9798 9843 9844 9856 9864 9897 9976 9989 10004 10035 10044 10069 10098 10161 10162 10180 10196 10197 10295 10296 
+	}
+	local_supplies=0.0 
+}

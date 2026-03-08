@@ -1,0 +1,39 @@
+
+state={
+	id=51
+	name="STATE_51"
+	manpower = 308703
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11502 5}
+		victory_points = { 12083 1}
+		
+		owner = LEB
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = LEB
+	}
+
+	provinces={
+		11502 11503 11586 11756 11788 11887 11917 12024 12058 12083 12144 12175 
+	}
+	local_supplies=0.0 
+}
