@@ -1,3 +1,0 @@
-technology_categories = {
-	ak_47
-}
