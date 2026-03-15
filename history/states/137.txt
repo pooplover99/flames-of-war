@@ -17,10 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 9874 1}
-		victory_points = { 9942 1}
-		victory_points = { 9967 1}
-		
+
 		owner = LEB
 		buildings = {
 			infrastructure = 2

@@ -17,9 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 6684 71}
-		victory_points = { 6864 101}
-		
+
 		owner = IRQ
 		buildings = {
 			infrastructure = 5

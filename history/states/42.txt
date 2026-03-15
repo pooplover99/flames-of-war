@@ -17,11 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 1870 22}
-		victory_points = { 2380 8}
-		victory_points = { 2627 22}
-		victory_points = { 3034 8}
-		
+
 		owner = EGY
 		buildings = {
 			infrastructure = 2

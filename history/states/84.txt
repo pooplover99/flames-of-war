@@ -17,12 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 4968 22}
-		victory_points = { 5407 22}
-		victory_points = { 5625 16}
-		victory_points = { 5729 16}
-		victory_points = { 6069 22}
-		
+
 		owner = ISR
 		buildings = {
 			infrastructure = 4

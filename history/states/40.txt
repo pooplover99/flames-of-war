@@ -17,12 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 1801 31}
-		victory_points = { 2105 31}
-		victory_points = { 2501 31}
-		victory_points = { 2887 37}
-		victory_points = { 3108 18}
-		
+
 		owner = OPU
 		buildings = {
 			infrastructure = 4

@@ -17,11 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 6331 5}
-		victory_points = { 6348 3}
-		victory_points = { 6382 1}
-		victory_points = { 6633 6}
-		
+
 		owner = PAL
 		buildings = {
 			infrastructure = 2
