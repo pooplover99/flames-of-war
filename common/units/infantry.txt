@@ -13,9 +13,6 @@ sub_units = {
 			infantry
 		}
 		
-		#can_exfiltrate_from_coast = yes #Can this subunit board convoys from a non-port location. 
-		#Intended for use with special forces marine templates; all non-support subunits in the division must have this flag set to yes
-		
 		group = infantry
 		
 		categories = {
@@ -25,24 +22,25 @@ sub_units = {
 			category_army
 			category_infantry_and_bicycle
 		}
-		
+	
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 25
-		max_organisation = 60
+		max_strength = 50 
+		max_organisation = 90 
 		default_morale = 0.3
-		manpower = 1000
-
+		manpower = 150
+	
 		#Misc Abilities
 		training_time = 90
 		suppression = 1.5
 		weight = 0.5
 		
-		supply_consumption = 0.06
+		supply_consumption = 0.19
+		
 	
 		need = {
-			infantry_equipment = 100
+			infantry_equipment = 150
 		}
 	}
 
@@ -52,7 +50,7 @@ sub_units = {
 		map_icon_category = infantry
 		
 		priority = 400
-		ai_priority = 150
+		ai_priority = 190
 		active = no
 
 		type = {
@@ -73,19 +71,23 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 50 #reg infantry 60
-		default_morale = 0.3
-		manpower = 1000
+		max_organisation = 70
+		default_morale = 0.2
+		manpower = 150
 
 		#Misc Abilities
-		training_time = 80 #reg infantry 90
+		training_time = 75
 		suppression = 1.5
 		weight = 0.5
 		
-		supply_consumption = 0.06
+		#Combat
+		defense = -2.25
+		soft_attack = -0.30
+		
+		supply_consumption = 0.15
 	
 		need = {
-			infantry_equipment = 100
+			infantry_equipment = 150
 		}
 	}
 }

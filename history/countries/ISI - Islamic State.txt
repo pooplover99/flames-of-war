@@ -15,6 +15,7 @@ set_politics = {
 
 add_ideas = {
 	ISI_child_soldiers
+	ISI_foreign_volunteers
 	}
 
 recruit_character = ISI_Abu_Bakr_al_Baghdadi
