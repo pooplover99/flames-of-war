@@ -1,7 +1,6 @@
-version="1.17.4"
-tags={
-	"Gameplay"
-}
+name="Syrian_war"
+picture="thumbnail.png"
+version="v1"
 replace_path="history/states"
 replace_path="map/strategicregions"
 replace_path="history/units"
@@ -14,7 +13,13 @@ replace_path="common/factions/rules"
 replace_path="common/factions/rules/groups"
 replace_path="common/factions/templates"
 replace_path = "gfx/loadingscreens"
+replace_path = "common/national_focus"
 replace_path = "gfx/flags"
 replace_path = "common/bookmarks"
-name="Syrian_war"
-supported_version="1.17.4.1"
+tags={
+	"Gameplay"
+	"Historical"
+}
+supported_version="1.17.*"
+
+remote_file_id="<ID>"

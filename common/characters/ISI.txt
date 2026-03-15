@@ -1,0 +1,15 @@
+characters = {
+	ISI_Abu_Bakr_al_Baghdadi = {
+		name = "ISI_Abu_Bakr_al_Baghdadi"
+			portraits = {
+				army = {
+					large = GFX_portrait_Abu_Bakr_al_Baghdadi
+				}
+			}
+		
+		country_leader = {
+			ideology = hazimism
+		}
+
+	}
+}

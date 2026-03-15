@@ -1,0 +1,7 @@
+	spriteTypes = {
+	
+		spriteType = {
+			name = "GFX_ideology_SAR_Ba_athism"
+			texturefile = "gfx/interface/ideologies/Ba_ath_party.png"
+		}
+}

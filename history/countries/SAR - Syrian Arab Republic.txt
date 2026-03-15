@@ -256,14 +256,13 @@ set_war_support = 54
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1930.8.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 50
+	democratic = 0
 	fascism = 0
-	communism = 50
+	communism = 100
 	neutrality = 0
 }
 

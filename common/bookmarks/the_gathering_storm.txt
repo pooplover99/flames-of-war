@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2013.4.8.12
+		date = 2013.4.8
 		picture = "GFX_select_date_1936"
 		default = yes
 		
@@ -31,82 +31,15 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		ISR={
+		ISI={
 			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = jihadism
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		EGY={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		LEB={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		IRN={
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		JOR={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		OPU={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		SAU={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		TUR={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		PAL={
-			minor = yes
-			history = "generic_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-			}
-			focuses = {
-			}
+		
 		}
 		
 		"---"={

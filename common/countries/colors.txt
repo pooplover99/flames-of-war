@@ -1258,8 +1258,3 @@ TUR = {
 	color = rgb { 197 38 49 }
 	color_ui = rgb { 197 38 49 }
 }
-
-ISI = {
-    color = rgb { 4 20 26 }
-    color_ui = rgb { 4 20 26 }
-}

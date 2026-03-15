@@ -1,16 +1,14 @@
 characters = {
 	SAR_Bashar_Al_Assad = {
-		name = "Bashar_Al_Assad"
+		name = "SAR_Bashar_Al_Assad"
 			portraits = {
 				army = {
-					large = GFX_portrait_place
+					large = GFX_portrait_bashar
 				}
 			}
 		
 		country_leader = {
-			ideology = stalinism
-			expire = "1965.1.1.1"
-			id=-1
+			ideology = Ba_athism
 		}
 
 	}

@@ -21,7 +21,7 @@ state={
 		victory_points = { 16903 1}
 		victory_points = { 16941 1}
 		
-		owner = RJA
+		owner = FSA
 		buildings = {
 			infrastructure = 2
 			
@@ -31,7 +31,6 @@ state={
 			
 		}
 		add_core_of = FSA
-		add_core_of = RJA
 	}
 
 	provinces={
