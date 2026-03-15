@@ -1,0 +1,32 @@
+technologies = {
+
+	infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_0
+		}
+
+		enable_subunits = {
+			infantry
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1892
+		folder = {
+			name = infantry_folder
+			position = { x = 1 y = 0 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

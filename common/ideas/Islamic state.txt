@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		ISI_child_soldiers = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+			army_attack_factor = -0.02
+			army_defence_factor = -0.02
+			army_org_factor = 0.05
+			conscription = 0.01
+			stability_factor = -0.05
+			}
+		}
+	}
+	country = {
+		ISI_foreign_volunteers = {
+		
+			allowed {
+				always = no
+			}
+			
+			modifier = {
+			consumer_goods_factor = 0.7
+			industrial_capacity_factory = -0.3
+			production_speed_buildings_factor = -0.3
+}
