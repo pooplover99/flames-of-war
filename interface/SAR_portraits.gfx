@@ -1,6 +1,6 @@
 spriteTypes = {
 	spriteType = {
-	name = "Bashar_GFX_portrait_place"
-	texturefile = "gfx/leaders/SAR/bashar.dds"
+	name = "GFX_portrait_place"
+	texturefile = "gfx/leaders/place/place.dds"
 	}
 }

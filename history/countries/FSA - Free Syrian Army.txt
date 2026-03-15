@@ -325,11 +325,6 @@ if = {
 
 	}
 
-	add_ideas = {
-	SAR_deorganised_army
-	SAR_crashed_economy
-	}
-
 if = {
 	limit = {
 		has_dlc = "La Resistance"

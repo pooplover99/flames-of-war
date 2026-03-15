@@ -3,7 +3,7 @@ characters = {
 		name = "Bashar_Al_Assad"
 			portraits = {
 				army = {
-					large = Bashar_GFX_portrait_place
+					large = GFX_portrait_place
 				}
 			}
 		

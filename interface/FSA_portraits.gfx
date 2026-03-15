@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-	name = "Bashar_GFX_portrait_place"
-	texturefile = "gfx/leaders/SAR/bashar.dds"
-	}
-}
