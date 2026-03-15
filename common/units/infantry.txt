@@ -81,7 +81,6 @@ sub_units = {
 		weight = 0.5
 		
 		#Combat
-		defense = -2.25
 		soft_attack = -0.30
 		
 		supply_consumption = 0.15

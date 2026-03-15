@@ -22,6 +22,6 @@ tags={
 	"Gameplay"
 	"Historical"
 }
-supported_version="1.17.*"
+supported_version="1.17.4"
 
 remote_file_id="<ID>"
