@@ -17,8 +17,6 @@ state={
 	}
 
 	history={
-		victory_points = { 11583 8}
-		victory_points = { 13147 56}
 		
 		owner = IRN
 		buildings = {

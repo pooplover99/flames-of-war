@@ -17,9 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 15774 1}
-		victory_points = { 15905 1}
-		
+
 		owner = FSA
 		buildings = {
 			infrastructure = 2

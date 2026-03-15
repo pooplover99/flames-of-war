@@ -17,10 +17,6 @@ state={
 	}
 
 	history={
-		victory_points = { 13519 9}
-		victory_points = { 13855 9}
-		victory_points = { 14604 9}
-		victory_points = { 14738 6}
 		
 		owner = ISI
 		buildings = {

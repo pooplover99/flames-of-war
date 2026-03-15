@@ -17,10 +17,7 @@ state={
 	}
 
 	history={
-		victory_points = { 14825 6}
-		victory_points = { 15373 13}
-		victory_points = { 15917 13}
-		
+
 		owner = SAR
 		buildings = {
 			infrastructure = 2
