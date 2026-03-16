@@ -6,7 +6,7 @@ sub_units = {
 		map_icon_category = infantry
 		
 		priority = 600
-		ai_priority = 200
+		ai_priority = 300
 		active = no
 
 		type = {
@@ -50,7 +50,7 @@ sub_units = {
 		map_icon_category = infantry
 		
 		priority = 400
-		ai_priority = 190
+		ai_priority = 300
 		active = no
 
 		type = {

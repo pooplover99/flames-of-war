@@ -17,7 +17,7 @@ replace_path = "common/national_focus"
 replace_path = "gfx/flags"
 replace_path = "common/bookmarks"
 replace_path = "common/technologies"
-replace_path - "common/units"
+replace_path = "common/units"
 tags={
 	"Gameplay"
 	"Historical"

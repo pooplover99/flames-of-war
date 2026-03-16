@@ -18,7 +18,7 @@ state={
 
 	history={
 		
-		owner = IRQ
+		owner = ISI
 		buildings = {
 			infrastructure = 2
 			
@@ -28,6 +28,7 @@ state={
 			
 		}
 		add_core_of = IRQ
+		add_core_of = ISI
 	}
 
 	provinces={

@@ -1,0 +1,140 @@
+division_template = {
+	name = "Local Armed Tribes"
+	is_locked = yes
+	force_allow_recruiting = yes
+
+	regiments = {
+			militia = {  x = 0 y = 0 }
+			militia = {  x = 0 y = 1 }
+			militia = {  x = 0 y = 2 }
+			militia = {  x = 1 y = 0 }
+			militia = {  x = 1 y = 1 }
+			militia = {  x = 1 y = 2 }
+	}
+	
+	support = {
+
+		}
+}
+division_template = {
+	name = "Foreign Volunteers"
+	is_locked = yes
+	force_allow_recruiting = yes
+
+	regiments = {
+			militia = {  x = 0 y = 0 }
+			militia = {  x = 0 y = 1 }
+			militia = {  x = 1 y = 0 }
+			militia = {  x = 1 y = 1 }
+	}
+	
+	support = {
+
+		}
+}
+division_template = {
+	name = "Jihadi Infantry"
+
+	regiments = {
+			Infantry = {  x = 0 y = 0 }
+			Infantry = {  x = 0 y = 1 }
+			Infantry = {  x = 0 y = 2 }
+			Infantry = {  x = 1 y = 0 }
+			Infantry = {  x = 1 y = 1 }
+			Infantry = {  x = 1 y = 2 }
+			Infantry = {  x = 2 y = 0 }
+			Infantry = {  x = 2 y = 1 }
+			Infantry = {  x = 2 y = 2 }
+	}
+	
+	support = {
+
+		}
+}
+units = {
+
+	#each foreign fighter division is 600 soldiers
+	#i need 1200 foreign fighters
+
+	division = {
+		name = "Foreign Fighter Battalion (Morroco)"
+		location = 13782
+		division_template = "Foreign Volunteers"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Foreign Fighter Battalion (Tunisia)"
+		location = 13782
+		division_template = "Foreign Volunteers"
+		start_experience_factor = 0.3
+		}
+		
+		
+	#tribe divisions are 900 men
+	#i need around 3000
+	
+	division = {
+		name = "Armed Local Tribes"
+		location = 13417
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Armed Local Tribes"
+		location = 15002
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Armed Local Tribes"
+		location = 13519
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Armed Local Tribes"
+		location = 14276
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Armed Local Tribes"
+		location = 14381
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Armed Local Tribes"
+		location = 14441
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+		
+	#Infantry has 1350 men each
+	
+	}
+	division = {
+		name = "Jihadi Infantry"
+		location = 14604
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Jihadi Infantry"
+		location = 14732
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Jihadi Infantry"
+		location = 13677
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Jihadi Infantry"
+		location = 13381
+		division_template = "Local Armed Tribes"
+		start_experience_factor = 0.3
+	}
+
+}
