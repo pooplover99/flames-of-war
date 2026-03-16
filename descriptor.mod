@@ -1,6 +1,6 @@
 name="Syrian_war"
 picture="thumbnail.png"
-version="v1"
+version="1.17.4"
 replace_path="history/states"
 replace_path="map/strategicregions"
 replace_path="history/units"
@@ -23,5 +23,5 @@ tags={
 	"Historical"
 }
 supported_version="1.17.4"
-
+path="C:/Users/PC/Documents/Paradox Interactive/Hearts of Iron IV/mod/Syrian_war"
 remote_file_id="<ID>"
