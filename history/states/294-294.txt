@@ -1,0 +1,37 @@
+
+state={
+	id=294
+	name="STATE_294"
+	manpower = 22794059
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=40
+		chromium=7
+		oil=26
+		rubber=10
+		steel=87
+		tungsten=16
+		coal=0
+	}
+
+	history={
+
+		owner = IRQ
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 7
+			industrial_complex = 5
+			
+			
+		}
+		add_core_of = IRQ
+	}
+
+	provinces = {
+		12525 12417 12106 12221 12303 12233 12418 12296 12378 12603 12485 12412 12349 12516 12569
+	}
+	local_supplies=0.0 
+}
