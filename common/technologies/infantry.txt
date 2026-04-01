@@ -16,7 +16,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1892
+		start_year = 1890
 		folder = {
 			name = infantry_folder
 			position = { x = 1 y = 0 }
@@ -30,4 +30,29 @@ technologies = {
 			factor = 1
 		}
 	}
+	
+	
+	
+	
+	support_weapons = {
+
+		infantry = {
+			defense = 0.05
+			breakthrough = 0.05
+	}
+		research_cost = 1.5
+		start_year = 1890
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	
+	
+	
+	
+	
+	
+	
 }
