@@ -1,0 +1,32 @@
+focus_tree = {
+	id = ISI_focus_1
+	
+	country = {
+		base = 0
+        modifier = {
+            tag = isi
+            add = 10
+        }
+    }
+
+	default = no
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = ISI_Iraq_Land
+		x = 4
+		y = 0
+		cost = 1
+        
+        completion_reward = {
+            custom_effect_tooltip = ISI_tooltip
+            hidden_effect = {
+                ISI = {
+                transfer_state = 295
+                transfer_state = 294
+                   }
+                } 
+            }
+	    }
+    }

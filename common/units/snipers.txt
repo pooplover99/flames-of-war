@@ -1,0 +1,32 @@
+sub_units = {
+
+	snipers = {
+	abbreviation = "SNI"
+		sprite = infantry
+		map_icon_category = infantry
+		
+	
+		priority = 600
+		ai_priority = 300
+		active = no
+		
+		type = {
+			infantry
+			support
+		}
+
+		group = support
+		
+		combat_width = 0
+		
+		manpower = 20
+		training_time = 10
+		
+		soft_attack = 3.0
+		
+		need = {
+			infantry_equipment = 10
+			support_equipment = 20
+		}
+	}
+}
