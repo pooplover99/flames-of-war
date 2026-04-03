@@ -8,6 +8,7 @@ bookmarks = {
 		
 		
 		IRQ={
+			minor = yes
 			history = "generic_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {

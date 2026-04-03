@@ -1,0 +1,15 @@
+characters = {
+	SWE_black_ass_kid = {
+		name = "SWE_black_ass_kid"
+			portraits = {
+				army = {
+					large = GFX_portrait_SWE_black_ass_kid
+				}
+			}
+		
+		country_leader = {
+			ideology = hazimism
+		}
+
+	}
+}

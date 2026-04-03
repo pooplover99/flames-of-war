@@ -13,13 +13,14 @@ technologies = {
 
 		path = {
 			research_cost_coeff = 1
+			leads_to_tech = infantry_weapons1
 		}
 
 		research_cost = 1.5
 		start_year = 1890
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = 0 }
+			position = { x = 0 y = 0 }
 		}
 
 		categories = {
@@ -30,8 +31,75 @@ technologies = {
 			factor = 1
 		}
 	}
+
+	infantry_weapons1 = {
+
+		enable_equipments = {
+			infantry_equipment_1
+		}
+
+		path = {
+			leads_to_tech = improved_infantry_weapons
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 3 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+	}
 	
-	
+	improved_infantry_weapons = {
+
+		enable_equipments = {
+			infantry_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	support_weapons = {
@@ -44,7 +112,7 @@ technologies = {
 		start_year = 1890
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 3 y = 0 }
 		}
 	}
 

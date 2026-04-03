@@ -1,8 +1,22 @@
 ﻿l_english:
 
- infantry_equipment_0:0 "Mosin Nagant."
- infantry_equipment_0_short:0 "Mosin Nagant."
+ infantry_equipment_0:0 "Mosin Nagant"
+ infantry_equipment_0_short:0 "Mosin"
  infantry_equipment_0_desc:0 "Developed from 1882 to 1891, it was used by the armed forces of the Russian Empire, the Soviet Union and various other states. It is one of the most mass-produced military bolt-action rifles in history, with over 37 million units produced since 1891. In spite of its age, it has been used in various conflicts around the world up to the present day. "
+
+ infantry_equipment_1:0 "Simonov Carbine"
+ infantry_equipment_1_short:0 "SKS"
+ infantry_equipment_1_desc:0 "The SKS was first produced in the Soviet Union but was later widely exported and manufactured by various nations. Its distinguishing characteristics include a permanently attached folding bayonet and a hinged, fixed magazine."
+
+ infantry_equipment_2:0 "Kalashnikov automatic rifle"
+ infantry_equipment_2_short:0 "AKM"
+ infantry_equipment_2_desc:0 "Designed by Mikhail Kalashnikov, it became the most widely produced variant of the Kalashnikov series, serving as the standard service rifle of the Soviet Army and Warsaw Pact states. Featuring a gas‑operated rotating bolt, slanted muzzle compensator, and simplified manufacturing for cost effective mass production, the AKM enhanced automatic accuracy and reliability while reducing weight by approximately 1 kg."
+
+
+
+
+
+
 
  submarine:0 "Submarine"
  submarine_desc:0 "Submarines employ stealth and powerful torpedoes to destroy enemy convoys."
@@ -3209,12 +3223,6 @@
  rocket_artillery_equipment_1:0 "Towed Rocket Artillery"
  rocket_artillery_equipment_1_short:0 "Rocket Artillery"
  rocket_artillery_equipment_1_desc:0 "Rocket artillery is less accurate and has a much lower sustained rate of fire than batteries of traditional artillery guns. However, they have the capability of simultaneously hitting a target with multiple rockets with devastating effect."
- infantry_equipment:0 "Infantry Equipment"
- infantry_equipment_short:0 "Infantry Eq."
- infantry_equipment_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
- infantry_equipment_1:0 "Infantry Equipment I"
- infantry_equipment_1_short:0 "Weapons I"
- infantry_equipment_1_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs."
  infantry_equipment_2:0 "Infantry Equipment II"
  infantry_equipment_2_short:0 "Weapons II"
  infantry_equipment_2_desc:0 "Personal and crew served weapons for infantry as well as the various other bits of kit a soldier needs. Modernized to include a great number of sub-machineguns and anti-tank rifles."

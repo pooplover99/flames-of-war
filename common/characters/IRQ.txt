@@ -1,9 +1,9 @@
 characters = {
-	FOW_Motivation = {
-		name = "FOW_Motivation"
+	IRQ_Nouri_Al_Maliki = {
+		name = "Nouri_Al_Maliki"
 			portraits = {
 				army = {
-					large = GFX_portrait_motivation
+					large = GFX_portrait_Nouri_Al_Maliki
 				}
 			}
 		

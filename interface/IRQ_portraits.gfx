@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+	name = "GFX_portrait_Nouri_Al_Maliki"
+	texturefile = "gfx/leaders/IRQ/Nouri_Al_Maliki.dds"
+	}
+}

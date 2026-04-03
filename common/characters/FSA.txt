@@ -1,0 +1,15 @@
+characters = {
+	motivation = {
+		name = "motivation"
+			portraits = {
+				army = {
+					large = GFX_portrait_motivation
+				}
+			}
+		
+		country_leader = {
+			ideology = despotism
+		}
+
+	}
+}
