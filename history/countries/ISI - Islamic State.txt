@@ -21,7 +21,6 @@ set_politics = {
 }
 
 add_ideas = {
-	ISI_child_soldiers
 	ISI_foreign_volunteers
 	}
 
