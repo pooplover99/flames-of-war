@@ -47,9 +47,8 @@ SAU = {
 TUR = {
 	color = rgb { 197 38 49 }
 	color_ui = rgb { 197 38 49 }
-	
+}
 ROJ = {
-	color = rgb { 249 255 204 }
-	color_ui = rgb { 249 255 204 }
-	
+	color = rgb { 233 207 30 }
+	color_ui = rgb { 233 207 30 }
 }
