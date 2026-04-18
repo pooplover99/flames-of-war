@@ -5,8 +5,8 @@ EGY = {
 	color_ui = rgb { 196 140 47 }
 }
 FSA = {
-	color = rgb { 27 39 20 }
-	color_ui = rgb { 27 39 20 }
+	color = rgb { 0 111 55 }
+	color_ui = rgb { 0 111 55 }
 }
 IRN = {
 	color = rgb { 95 122 93 }
@@ -47,4 +47,9 @@ SAU = {
 TUR = {
 	color = rgb { 197 38 49 }
 	color_ui = rgb { 197 38 49 }
+	
+ROJ = {
+	color = rgb { 249 255 204 }
+	color_ui = rgb { 249 255 204 }
+	
 }

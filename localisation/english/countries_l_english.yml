@@ -1,7 +1,11 @@
 ﻿l_english:
- ISI_jihadism:0 "Islamic State"
- ISI_DEF:0 "ISIS"
- ISI_ADJ:0 "ISIS"
+ ISI_jihadism:0 "Islamic State In Iraq"
+ ISI_DEF:0 "ISI"
+ ISI_ADJ:0 "ISI"
+
+ ISIS_jihadism:0 "Islamic State"
+ ISIS_DEF:0 "ISIS"
+ ISIS_ADJ:0 "ISIS"
 
  SAR_fascism:0 "Syrian Arab Republic"
  SAR_democratic:0 "Syrian Arab Republic"
@@ -23,6 +27,20 @@
  TUR_democratic:0 "Republic of Turkey"
  TUR_DEF:0 "Republic of Turkey"
  TUR_ADJ:0 "Republic of Turkey"
+
+ ROJ_fascism:0 "Rojava"
+ ROJ_communism:0 "Rojava"
+ ROJ_neutrality:0 "Rojava"
+ ROJ_democratic:0 "Rojava"
+ ROJ_DEF:0 "Rojava"
+ ROJ_ADJ:0 "Rojava"
+
+ OPU_fascism:0 "Kuwait"
+ OPU_communism:0 "Kuwait"
+ OPU_neutrality:0 "Kuwait"
+ OPU_democratic:0 "Kuwait"
+ OPU_DEF:0 "Kuwait"
+ OPU_ADJ:0 "Kuwait"
 
 
 #VANILLA
