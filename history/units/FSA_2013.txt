@@ -1,0 +1,41 @@
+division_template = {
+	name = "Forces of Martyr Ahmad al-Abdo"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 1 y = 2 }
+	}
+	
+	support = {
+
+		}
+}
+
+units = {
+
+    #eastern syrian niggas for FSA 
+    #they had like 2500 nigas
+
+    division = {
+		name = "Martyr Ahmad al-Abdo group 1"
+		location = 14303
+		division_template = "Forces of Martyr Ahmad al-Abdo"
+		start_experience_factor = 0.3
+	}
+    division = {
+		name = "Martyr Ahmad al-Abdo group 2"
+		location = 14154
+		division_template = "Forces of Martyr Ahmad al-Abdo"
+		start_experience_factor = 0.3
+	}
+    division = {
+		name = "Martyr Ahmad al-Abdo group 3"
+		location = 14757
+		division_template = "Forces of Martyr Ahmad al-Abdo"
+		start_experience_factor = 0.3
+	}
+}

@@ -26,6 +26,10 @@ focus_tree = {
                 transfer_state = 295
                 transfer_state = 294
                    }
+                declare_war_on = {
+                    target = FSA
+                    type = annex_everything
+                    }   
                 } 
             }
 	    }
