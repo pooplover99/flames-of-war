@@ -52,3 +52,7 @@ ROJ = {
 	color = rgb { 233 207 30 }
 	color_ui = rgb { 233 207 30 }
 }
+JAN = {
+	color = rgb { 17 17 17 }
+	color_ui = rgb { 17 17 17 }
+}
