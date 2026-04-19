@@ -1,6 +1,6 @@
 characters = {
 	IRQ_Nouri_Al_Maliki = {
-		name = "Nouri_Al_Maliki"
+		name = "IRQ_Nouri_Al_Maliki"
 			portraits = {
 				army = {
 					large = GFX_portrait_Nouri_Al_Maliki

@@ -1,11 +1,11 @@
 ﻿l_english:
- ISI_jihadism:0 "Islamic State In Iraq"
- ISI_DEF:0 "ISI"
- ISI_ADJ:0 "ISI"
+ ISI_jihadism:0 "Islamic State"
+ ISI_DEF:0 "ISIS"
+ ISI_ADJ:0 "ISIS"
 
- ISIS_jihadism:0 "Islamic State"
- ISIS_DEF:0 "ISIS"
- ISIS_ADJ:0 "ISIS"
+ JAN_jihadism:0 "Jabhat Al Nusra"
+ JAN_DEF:0 "JAN"
+ JAN_ADJ:0 "JAN"
 
  SAR_fascism:0 "Syrian Arab Republic"
  SAR_democratic:0 "Syrian Arab Republic"
